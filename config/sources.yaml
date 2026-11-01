@@ -1,0 +1,22 @@
+sources:
+
+  - name: DavideFulgione
+
+    url: "http://davidefulgione.it/tv.m3u"
+
+  - name: TOPTiVU
+
+    url: "http://inthemix.altervista.org/tv.m3u"
+
+  - name: OpenIPTVItaly
+
+    url: "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/OpenIPTVItaly.m3u"
+
+  - name: IPTVItalia
+
+    url: "https://raw.githubusercontent.com/SuperFranky84/IPTV-Italia/refs/heads/main/TV"
+
+  - name: FreeTV
+
+    url: "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
+
