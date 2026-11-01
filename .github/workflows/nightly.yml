@@ -20,7 +20,7 @@ jobs:
 
         with:
 
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Verify Python
 
@@ -28,5 +28,5 @@ jobs:
 
           python --version
 
-          echo "Workflow OK"
+          echo Workflow OK
 
