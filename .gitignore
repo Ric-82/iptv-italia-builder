@@ -218,3 +218,49 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IPTV Builder generated data
+output/
+cache/playlists/
+
+# Temporary analysis files
+project_tree.txt
+manifest_test.xml
+test_mpd.xml
+mediapolis.html
+
+# Temporary diagnostics
+*_probe.json
+*_probe.txt
+
+# Local reports
+resolver_analysis.txt
+resolver_domains.txt
+resolver_types.txt
+codec_analysis.txt
+mediapolis_urls.txt
+mediapolis_recovered.txt
+remaining_score_zero.txt
+
+# Generated playlists
+final_playlist.m3u
+final_playlist_full.m3u
+
+# Generated JSON outputs
+aggregated_channels.json
+aggregated_stats.json
+canonical_channels.json
+canonical_stats.json
+epg_sources.json
+final_channels.json
+final_stats.json
+github_actions_audit.json
+healthcheck.json
+italian_channels.json
+offline_channels.json
+probe_cache.json
+probe_results.json
+probe_stats.json
+resolved_urls.json
+resolver_stats.json
+selected_channels.json
