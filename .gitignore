@@ -264,3 +264,6 @@ probe_stats.json
 resolved_urls.json
 resolver_stats.json
 selected_channels.json
+
+cache/official/
+

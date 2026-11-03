@@ -1,0 +1,3402 @@
+{
+  "entries": [
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 1,
+      "name": "Rai 1 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 2,
+      "name": "Rai 2 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 3,
+      "name": "Rai 3 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 4,
+      "name": "RETEQUATTRO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 5,
+      "name": "CANALE 5",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 6,
+      "name": "ITALIA 1",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 7,
+      "name": "La7",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "SKY ITALIA S.R.L.",
+      "lcn": 8,
+      "name": "TV8",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 9,
+      "name": "Discovery NOVE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "LA SICILIA MULTIMEDIA SPA",
+      "lcn": 10,
+      "name": "ANTENNA SICILIA",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "TELECOLOR INTERNATIONAL TCI SRL",
+      "lcn": 11,
+      "name": "TELECOLOR",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "TGS TELEGIORNALE DI SICILIA SRL",
+      "lcn": 12,
+      "name": "TGS",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "PUBLIMED SRL",
+      "lcn": 13,
+      "name": "TRM",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "TELERADIO REGIONE SRL",
+      "lcn": 14,
+      "name": "VIDEO REGIONE",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "TELE RENT SRL",
+      "lcn": 15,
+      "name": "TELE RENT 7 GOLD",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "MEDIA ONE SRL",
+      "lcn": 16,
+      "name": "TELE ONE",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "R.V.M. SRL",
+      "lcn": 17,
+      "name": "VIDEO MEDITERRANEO",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "R.E.I. CANALE 103 SRL",
+      "lcn": 18,
+      "name": "REI TV",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "R.T.P. RADIO TELEVISIONE PELORITANA SRL",
+      "lcn": 19,
+      "name": "RTP",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "TELE RENT SRL",
+      "lcn": 19,
+      "name": "TVM",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 20,
+      "name": "20 MEDIASET",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 21,
+      "name": "Rai 4 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 22,
+      "name": "IRIS",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 23,
+      "name": "Rai 5",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 24,
+      "name": "Rai Movie HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 25,
+      "name": "Rai Premium HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "SKY ITALIA S.r.l.",
+      "lcn": 26,
+      "name": "CIELO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 27,
+      "name": "TWENTY SEVEN",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RETE BLU S.p.A.",
+      "lcn": 28,
+      "name": "TV 2000",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 29,
+      "name": "La7 cinema",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 30,
+      "name": "LA 5",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 31,
+      "name": "Discovery REAL TIME",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "QVC ITALIA S.r.l.",
+      "lcn": 32,
+      "name": "QVC",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 33,
+      "name": "Discovery Food Network",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 34,
+      "name": "CINE34",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 35,
+      "name": "FOCUS",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 36,
+      "name": "RTL 102.5 TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 37,
+      "name": "Warner Bros. Discovery Discovery",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 38,
+      "name": "Discovery Giallo",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 39,
+      "name": "TOP CRIME",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "BOING S.p.A.",
+      "lcn": 40,
+      "name": "BOING",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 41,
+      "name": "Discovery K2",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 42,
+      "name": "Rai Gulp",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 43,
+      "name": "Rai Yoyo",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 44,
+      "name": "Discovery Frisbee",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "BOING S.p.A.",
+      "lcn": 45,
+      "name": "BOING PLUS",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "BOING S.p.A.",
+      "lcn": 46,
+      "name": "CARTOONITO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PARAMOUNT GLOBAL ITALIA S.r.l.",
+      "lcn": 47,
+      "name": "Super!",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 48,
+      "name": "Rai News 24 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 49,
+      "name": "MEDIASET ITALIA DUE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "SKY ITALIA S.r.l.",
+      "lcn": 50,
+      "name": "SKY TG24",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 51,
+      "name": "TGCOM24",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 52,
+      "name": "Discovery DMAX",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 53,
+      "name": "ITALIA 53",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 54,
+      "name": "Rai STORIA HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 55,
+      "name": "MEDIASET EXTRA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 56,
+      "name": "Discovery HGTV - Home&Garden Tv",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 57,
+      "name": "Rai SCUOLA HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 58,
+      "name": "Rai Sport HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 59,
+      "name": "Discovery Motortrend",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA SPORT COMMUNICATION S.r.l.",
+      "lcn": 60,
+      "name": "SportItalia",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PUBLIROSE S.p.A.",
+      "lcn": 61,
+      "name": "il61",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GMH S.p.A.",
+      "lcn": 62,
+      "name": "DONNA SPORT TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GMH S.p.A.",
+      "lcn": 63,
+      "name": "CS24.LIVE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "SPORTCAST S.r.l.",
+      "lcn": 64,
+      "name": "Supertennis",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GMH S.p.A.",
+      "lcn": 65,
+      "name": "ALMA TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIOMEDIASET S.p.A.",
+      "lcn": 66,
+      "name": "RADIO 105",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "MONRADIO S.r.l.",
+      "lcn": 67,
+      "name": "R 101 TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DTT 68 S.r.l.",
+      "lcn": 68,
+      "name": "BOM CHANNEL",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELEMEDIA S.p.A.",
+      "lcn": 69,
+      "name": "Deejay TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO ITALIA S.p.A.",
+      "lcn": 70,
+      "name": "RADIO ITALIA TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "CANALE ITALIA SRL",
+      "lcn": 71,
+      "name": "CANALE ITALIA EXTRA",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 75,
+      "name": "CANALE 8",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ACCADEMIA P.C.E. SRL",
+      "lcn": 75,
+      "name": "ONDA TV GIOVANI",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "COMUNICAZIONE EFFICACE SRLS",
+      "lcn": 76,
+      "name": "VINTAGE RADIO TV",
+      "provinces": [
+        "ME",
+        "PA"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "NEW CIAK TELESUD SRL",
+      "lcn": 77,
+      "name": "CIAK TELESUD",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "MEDIASTAR SRL UNIPERSONALE",
+      "lcn": 78,
+      "name": "TELESTAR",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "TELE VIDEO ADRANO SOC. COOP.",
+      "lcn": 79,
+      "name": "TVA TELENORMANNA",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "RADIO MONTE KRONIO SOC. COOP.",
+      "lcn": 80,
+      "name": "RMK TV",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE TVZ",
+      "lcn": 80,
+      "name": "TURISMO TV SICILIA",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "RMB SRL",
+      "lcn": 81,
+      "name": "6 SESTARETE TV",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ANTENNA DEL MEDITERRANEO SRL",
+      "lcn": 82,
+      "name": "AM",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ESLIFE INNOVATION SRLS",
+      "lcn": 83,
+      "name": "LA TR3",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE SICILIA 24",
+      "lcn": 84,
+      "name": "SICILIA 24",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "TELEVISIONE SIRACUSANA COLOR SRL",
+      "lcn": 85,
+      "name": "TRIS",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE TVZ",
+      "lcn": 86,
+      "name": "RICORDI TV ITALIA",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "MEDIA CORE SOC. COOP",
+      "lcn": 87,
+      "name": "CORE TV",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ARTEMIDE COMUNICAZIONI SRLS",
+      "lcn": 88,
+      "name": "PRIMA TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "EDIGROUP SRL",
+      "lcn": 88,
+      "name": "SICILIAUNO",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "INTERMED SRL",
+      "lcn": 89,
+      "name": "TELEIBLEA",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE R.T.M. RADIO TELEVISIONE MESSINESE",
+      "lcn": 89,
+      "name": "TELESPAZIO MESSINA",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE TELEMISTRETTA TV",
+      "lcn": 90,
+      "name": "TM TELEMISTRETTA",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE TVZ",
+      "lcn": 91,
+      "name": "EVENTI TV SUD",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE TVZ",
+      "lcn": 92,
+      "name": "TRADIZIONE TV ITALIA",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE TVZ",
+      "lcn": 93,
+      "name": "PLAY TV ITALY",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "SPEED NETWORK SRLS",
+      "lcn": 93,
+      "name": "VIDEOSICILIA",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE TVZ",
+      "lcn": 94,
+      "name": "JUKEBOX TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "TELEMED SRL",
+      "lcn": 94,
+      "name": "MED1",
+      "provinces": [
+        "PA"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE TVZ",
+      "lcn": 95,
+      "name": "TV NEWS",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "PUBLIMED SRL",
+      "lcn": 96,
+      "name": "TELENOVA",
+      "provinces": [
+        "PA"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "CO.GEST SPA",
+      "lcn": 97,
+      "name": "CANALE 97",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE EDITORIALE SIRATON",
+      "lcn": 97,
+      "name": "INFORMAZIONE TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE INFORMAZIONE 2000",
+      "lcn": 98,
+      "name": "TELE 90",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "FINMEDIA SRL",
+      "lcn": 98,
+      "name": "TELEGELA",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE EDITRICE RADIO TV ITALIA",
+      "lcn": 99,
+      "name": "BUSINESS CHANNEL",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "SICILIA EDITRICE SRL",
+      "lcn": 99,
+      "name": "WEST SICILY",
+      "provinces": [
+        "AG",
+        "CL",
+        "EN",
+        "PA",
+        "RG",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 100,
+      "name": "Rai 4k Test",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 101,
+      "name": "Rai 4K",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 102,
+      "name": "TEST Rai 2",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 103,
+      "name": "Rai 3 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 104,
+      "name": "RETEQUATTRO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 105,
+      "name": "CANALE 5",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 106,
+      "name": "ITALIA 1",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 107,
+      "name": "La7",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "SKY ITALIA S.R.L.",
+      "lcn": 108,
+      "name": "TV8",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 109,
+      "name": "Discovery NOVE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO VIDEO CALABRIA 99 SRL",
+      "lcn": 110,
+      "name": "VIDEO CALABRIA",
+      "provinces": [
+        "ME",
+        "PA"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE EDITORIALE SIRATON",
+      "lcn": 111,
+      "name": "SALUTE TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE EDITORIALE SIRATON",
+      "lcn": 112,
+      "name": "ARCOBALENO DELLA MUSICA TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "A.M.EL. SRL",
+      "lcn": 113,
+      "name": "TCF",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE EDITRICE RADIO TV ITALIA",
+      "lcn": 114,
+      "name": "GUSTO TV ITALIA",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE EDITRICE RADIO TV ITALIA",
+      "lcn": 115,
+      "name": "ADN24 ITALIA",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [
+        "ITALIANISSIMA TV"
+      ],
+      "company": "ASSOCIAZIONE EDITRICE RADIO TV ITALIA",
+      "lcn": 117,
+      "name": "LA GRANDE TV ITALIA SICILIA",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE VIDEO PALERMO ETS",
+      "lcn": 118,
+      "name": "PALERMO NEWS",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 120,
+      "name": "20 MEDIASET",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 121,
+      "name": "ITALIA 121",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO MASSOLINA S.r.l.",
+      "lcn": 122,
+      "name": "CANALE 122 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "MEDIATEXT S.r.l.",
+      "lcn": 123,
+      "name": "ITALIA CHANNEL",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 124,
+      "name": "ARTE ITALIA 124",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 125,
+      "name": "ARTE ITALIA 125",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 126,
+      "name": "ITALIA 126",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 127,
+      "name": "ITALIA 127",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 128,
+      "name": "Gold Tv Italia",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 129,
+      "name": "La 4 Italia",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 130,
+      "name": "CHANNEL 24",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 131,
+      "name": "Rete Italia",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "LINEAGEM S.p.A.",
+      "lcn": 132,
+      "name": "LineaGem",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "NAPOLEON S.R.L",
+      "lcn": 133,
+      "name": "ARTEIN",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 134,
+      "name": "ITALIA 134",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 135,
+      "name": "ITALIA 135",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 136,
+      "name": "ITALIA 136",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GMH S.p.A.",
+      "lcn": 137,
+      "name": "GOLD INVEST TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PUBLIROSE S.p.A.",
+      "lcn": 138,
+      "name": "TELECAMPIONE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PIER STYLE S.r.l.",
+      "lcn": 139,
+      "name": "DELUXE 139",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 140,
+      "name": "STARMARKET",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 141,
+      "name": "ITALIA 141",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 142,
+      "name": "ITALIA 142",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DAVIDE S.r.l.",
+      "lcn": 143,
+      "name": "ITALIA 143",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GMH S.p.A.",
+      "lcn": 144,
+      "name": "CANALE 144",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "FMC MEDIA S.r.l. Unipersonale",
+      "lcn": 145,
+      "name": "Padre Pio Tv",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 146,
+      "name": "Rai SCUOLA HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "FASCINO S.r.l.",
+      "lcn": 147,
+      "name": "FASCINO 147",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 148,
+      "name": "ITALIA 148",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PRIMASET S.r.l.",
+      "lcn": 149,
+      "name": "PRIMASET, canale 257",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DAVIDE S.r.l.",
+      "lcn": 150,
+      "name": "ITALIA 150",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "EPIQA S.r.l. Unipersonale",
+      "lcn": 151,
+      "name": "EQUTV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PRONTO GOLD TELEVISION S.r.l.",
+      "lcn": 152,
+      "name": "TESORY CHANNEL +1",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 153,
+      "name": "TV153",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DAVIDE S.r.l.",
+      "lcn": 154,
+      "name": "ITALIA 154",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 155,
+      "name": "ITALIA 155",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 156,
+      "name": "ITALIA 156",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "FASCINO S.r.l.s",
+      "lcn": 157,
+      "name": "FASCINO TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "CN Media S.r.l.",
+      "lcn": 158,
+      "name": "Radio Kiss Kiss TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 159,
+      "name": "ITALIA 159",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 160,
+      "name": "ITALIA 160",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 161,
+      "name": "CANTANDO BALLANDO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 162,
+      "name": "CANALE 162",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 163,
+      "name": "Go Tv",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 164,
+      "name": "SHOPPING TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "FASCINNO S.r.l.",
+      "lcn": 165,
+      "name": "FASCINO 165",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "MEDIATEXT plus S.r.l.",
+      "lcn": 166,
+      "name": "ORLER TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PARAMOUNT GLOBAL ITALIA S.r.l.",
+      "lcn": 167,
+      "name": "VH1",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PRIMA FREE S.r.l.",
+      "lcn": 168,
+      "name": "CANALE 168",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PRIMA FREE S.r.l.",
+      "lcn": 169,
+      "name": "CANALE 169",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "FREE TV ITALIA S.r.l.",
+      "lcn": 170,
+      "name": "FREE TV ITALIA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE EDITRICE RADIO TV ITALIA",
+      "lcn": 175,
+      "name": "MOTORI TV ITALIA",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE VIDEO PALERMO ETS",
+      "lcn": 176,
+      "name": "VIDEO PALERMO",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "TAOMEDIA SOC. COOP.",
+      "lcn": 180,
+      "name": "RADIO TAORMINA TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "R.T.P. RADIO TELEVISIONE PELORITANA SRL",
+      "lcn": 182,
+      "name": "GDS TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "R.T.P. RADIO TELEVISIONE PELORITANA SRL",
+      "lcn": 183,
+      "name": "STRETTO TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "DA VISION SRL",
+      "lcn": 184,
+      "name": "DOC TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 186,
+      "name": "CANALE 8 SOCIALE",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 187,
+      "name": "CIURI CIURI TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 189,
+      "name": "CINQUESTELLE",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 191,
+      "name": "EURO TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 192,
+      "name": "TRINACRIA TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 193,
+      "name": "TELE VAL DI NOTO",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE MARCONI",
+      "lcn": 195,
+      "name": "TELE JATO",
+      "provinces": [
+        "PA"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 196,
+      "name": "TV AMICA",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 197,
+      "name": "TV ALFA",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 198,
+      "name": "TV ALFA COMUNITA'",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "RADIO ETNA ESPRESSO SRL",
+      "lcn": 199,
+      "name": "ETNA CHANNEL",
+      "provinces": [
+        "AG",
+        "CL",
+        "CT",
+        "EN",
+        "ME",
+        "PA",
+        "RG",
+        "SR",
+        "TP"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 200,
+      "name": "PROGRAMMA TEST",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 201,
+      "name": "Rai PLAY",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 202,
+      "name": "Rai Radio 2 Visual HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 203,
+      "name": "Rai PLAY SOUND",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PROMO S.r.l.",
+      "lcn": 204,
+      "name": "Promo Food",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PROMO S.r.l.",
+      "lcn": 205,
+      "name": "Promo Travel",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PROMO S.r.l.",
+      "lcn": 206,
+      "name": "Promo Home",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PROMO S.r.l.",
+      "lcn": 207,
+      "name": "Promo Living",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PROMO S.r.l.",
+      "lcn": 208,
+      "name": "Promo Life",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PROMO S.r.l.",
+      "lcn": 209,
+      "name": "Promo Shopping",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 210,
+      "name": "TMC TELEMONDO CENTRALE",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE MEDIASUD",
+      "lcn": 211,
+      "name": "MEDIASUD",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE ROSINA ATTARDI",
+      "lcn": 212,
+      "name": "SOLE SICILIA TV",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE PEGASO",
+      "lcn": 213,
+      "name": "TELE PEGASO",
+      "provinces": [
+        "ME"
+      ],
+      "scope": "sicilia"
+    },
+    {
+      "aka": [],
+      "company": "AP EDITORE S.r.l.",
+      "lcn": 220,
+      "name": "AP CHANNEL",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ED MEDIA PLUS S.r.l.",
+      "lcn": 221,
+      "name": "ITCHANNEL",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "SOCIAL NETWORK S.r.l.",
+      "lcn": 222,
+      "name": "RADIO ROMA NETWORK",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "SOCIAL NETWORK S.r.l.",
+      "lcn": 223,
+      "name": "ITALIA SERA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "SOCIAL NETWORK S.r.l.",
+      "lcn": 224,
+      "name": "AMICI NETWORK",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ENTERPRISE WORKING ITALIA S.r.l.",
+      "lcn": 225,
+      "name": "TELESHOPPING",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "NEW MEDIA S.r.l.",
+      "lcn": 226,
+      "name": "WELCOME IN",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "MOMENTO TV S.r.l.s.",
+      "lcn": 227,
+      "name": "CANALE 227",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [
+        "pronto gold television"
+      ],
+      "company": "PRONTO GOLD TELEVISION S.r.l.",
+      "lcn": 228,
+      "name": "TESORY CHANNEL",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 229,
+      "name": "La7cinema",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 230,
+      "name": "CANALE 230",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PRIMA FREE S.r.l.",
+      "lcn": 231,
+      "name": "CANALE 231",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 232,
+      "name": "CANALE 232",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 233,
+      "name": "RTL 102.5 CALIENTE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO MASSOLINA S.r.l.",
+      "lcn": 234,
+      "name": "CUSANO NEWS 7",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 235,
+      "name": "CANALE 235",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "YAMATO S.r.l.",
+      "lcn": 236,
+      "name": "MAN-GA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GMH S.p.A.",
+      "lcn": 237,
+      "name": "CANALE 237",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 238,
+      "name": "PROMO KIDS",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 239,
+      "name": "La7 d",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GENIUS S.r.l.",
+      "lcn": 240,
+      "name": "Genius240",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELDA S.r.l.",
+      "lcn": 241,
+      "name": "FRANCE 24",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "Comunicazione Efficace S.r.l.s.",
+      "lcn": 242,
+      "name": "SICILIA 242",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 243,
+      "name": "CANALE 243",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE BABEL TV",
+      "lcn": 244,
+      "name": "babel tv",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE PAROLE DI VITA",
+      "lcn": 245,
+      "name": "PAROLE DI VITA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "Il SOLE 24 ORE S.p.A.",
+      "lcn": 246,
+      "name": "IlSole24ORE TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "Associazione PAROLE DI VITA",
+      "lcn": 247,
+      "name": "BeJoy.kids",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "TELEVISIONE CRISTIANA ITALIANA S.r.l.",
+      "lcn": 248,
+      "name": "TCI",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 250,
+      "name": "PROMO SPORT",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "MOMENTO TV S.r.l.s.",
+      "lcn": 251,
+      "name": "MOMENTO TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO LIBERTA' Soc. Coop.",
+      "lcn": 252,
+      "name": "RADIO LIBERTA'",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "TRINGOOO S.r.l.",
+      "lcn": 253,
+      "name": "RADIO RADIO TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DMF S.r.l.",
+      "lcn": 254,
+      "name": "ADN PLAY",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "NTI Italia S.r.l.",
+      "lcn": 255,
+      "name": "MARIA VISION",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "NTI ITALIA S.r.l.",
+      "lcn": 256,
+      "name": "ON AIR ITALIA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GAMBERO ROSSO S.p.A.",
+      "lcn": 257,
+      "name": "GAMBERO ROSSO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 258,
+      "name": "RADIOFRECCIA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "TISCALY ITALIA S.p.A.",
+      "lcn": 259,
+      "name": "BIKE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "URANIA MEDIA S.r.l",
+      "lcn": 260,
+      "name": "URANIA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "In Aria! Italia S.r.l.",
+      "lcn": 261,
+      "name": "DR PALMAS TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "Media Pluralisti Europei S.p.A. Società Benefit",
+      "lcn": 262,
+      "name": "BYOBLU",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA TV S.r.l.",
+      "lcn": 263,
+      "name": "CANALE 263",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PRIMASET S.r.l.",
+      "lcn": 264,
+      "name": "NTR 264 RADIO MUSIC TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO DIMENSIONE SUONO S.p.A.",
+      "lcn": 265,
+      "name": "RDS Social TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 266,
+      "name": "RADIO ZETA TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ARTEORATV S.r.l.",
+      "lcn": 267,
+      "name": "ARTEORATV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "MOMENTO TV S.r.l.s.",
+      "lcn": 268,
+      "name": "CANALE 268",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "CT.18 S.r.l.",
+      "lcn": 269,
+      "name": "269 ITALIA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "N.T.I. Italia S.r.l.",
+      "lcn": 270,
+      "name": "2SETTANTA TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "TIVU’ S.r.l.",
+      "lcn": 500,
+      "name": "tivù la guida",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 501,
+      "name": "Rai 1 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 502,
+      "name": "Rai 2 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 503,
+      "name": "Rai 3 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 504,
+      "name": "RETEQUATTRO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 505,
+      "name": "CANALE 5",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 506,
+      "name": "ITALIA 1",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 507,
+      "name": "La7",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "SKY ITALIA S.R.L.",
+      "lcn": 508,
+      "name": "TV8",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 509,
+      "name": "Discovery NOVE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DEVA CONNECTION S.r.l.",
+      "lcn": 510,
+      "name": "AutoMoto",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 520,
+      "name": "20 MEDIASET",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 521,
+      "name": "Rai 4 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 522,
+      "name": "IRIS",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 523,
+      "name": "Rai 5 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 524,
+      "name": "Rai Movie HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 525,
+      "name": "Rai Premium HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "JUWELO DEUTSCHLAND GMBH",
+      "lcn": 526,
+      "name": "JUWELO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 527,
+      "name": "TWENTY SEVEN",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RETE BLU S.p.A.",
+      "lcn": 528,
+      "name": "TV 2000 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 529,
+      "name": "La7cinema",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 530,
+      "name": "LA 5",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 531,
+      "name": "RADIO ZETA TV HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 532,
+      "name": "RADIOFRECCIA HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 533,
+      "name": "RTL 102.5 NEWS HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 534,
+      "name": "CINE34",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 535,
+      "name": "FOCUS",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 536,
+      "name": "RTL 102.5 TV HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "DISCOVERY ITALIA S.r.l.",
+      "lcn": 537,
+      "name": "Warner Bros. Discovery Discovery",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 539,
+      "name": "TOP CRIME",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "BOING S.p.A.",
+      "lcn": 540,
+      "name": "BOING",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 542,
+      "name": "Rai Gulp HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 543,
+      "name": "Rai Yoyo HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "BOING S.p.A.",
+      "lcn": 546,
+      "name": "CARTOONITO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 548,
+      "name": "Rai News 24 HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 549,
+      "name": "MEDIASET ITALIA DUE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "REPUBBLICA SAN MARINO",
+      "lcn": 550,
+      "name": "RTV SAN MARINO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 551,
+      "name": "TGCOM24",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 554,
+      "name": "Rai Storia HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "CTV VATICAN MEDIA",
+      "lcn": 555,
+      "name": "CTV VATICAN MEDIA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 556,
+      "name": "MEDIASET EXTRA HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 557,
+      "name": "Rai Sport + HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 558,
+      "name": "Rai Sport HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ITALIA SPORT COMMUNICATION S.r.l.",
+      "lcn": 560,
+      "name": "SportItalia",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "PUBLIROSE S.p.A.",
+      "lcn": 561,
+      "name": "TRAVEL TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GMH S.p.A.",
+      "lcn": 562,
+      "name": "DONNA SPORT TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GMH S.p.A.",
+      "lcn": 563,
+      "name": "CANALE 63",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "GMH S.p.A.",
+      "lcn": 565,
+      "name": "ALMA TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "R.T.I. S.p.A.",
+      "lcn": 566,
+      "name": "RADIO 105",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "MONRADIO S.r.l.",
+      "lcn": 567,
+      "name": "R 101 TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELEMEDIA S.p.A.",
+      "lcn": 569,
+      "name": "Deejay TV HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO ITALIA S.p.A.",
+      "lcn": 570,
+      "name": "RADIO ITALIA TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 701,
+      "name": "Rai Radio 1",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 702,
+      "name": "Rai Radio 2",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 703,
+      "name": "Rai Radio 3",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 704,
+      "name": "Rai GRParlamento",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 705,
+      "name": "Rai Isoradio",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 706,
+      "name": "Rai Radio 3 Classica",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 707,
+      "name": "Rai Radio Kids",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 708,
+      "name": "Rai Radio Live NAPOLI",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 709,
+      "name": "Rai Radio Techetè",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 710,
+      "name": "Rai Radio Tutta Italiana",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 711,
+      "name": "Rai Radio 1 Sport",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 712,
+      "name": "No Name Radio powered by Rai",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELEMEDIA S.p.A.",
+      "lcn": 713,
+      "name": "RADIO CAPITAL",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELEMEDIA S.p.A.",
+      "lcn": 714,
+      "name": "RADIO DEEJAY",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ELEMEDIA S.p.A.",
+      "lcn": 715,
+      "name": "M2O",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO DIMENSIONE SUONO S.p.A.",
+      "lcn": 724,
+      "name": "RDS 100% GRANDI SUCCESSI",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RETE BLU S.p.A.",
+      "lcn": 728,
+      "name": "inBlu2000",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "CITTA' DEL VATICANO",
+      "lcn": 733,
+      "name": "RADIO VATICANO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 736,
+      "name": "RTL 102.5 TV",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO ZETA S.r.l.",
+      "lcn": 737,
+      "name": "RADIO ZETA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 738,
+      "name": "RADIO FRECCIA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 739,
+      "name": "RTL 102.5 TRAFFIC",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 740,
+      "name": "RTL 102.5 BEST",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 741,
+      "name": "RTL 102.5 NAPULE’",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 742,
+      "name": "RTL 102.5 DISCO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 743,
+      "name": "RTL 102.5 CALIENTE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RTL 102,500 HIT RADIO S.r.l.",
+      "lcn": 744,
+      "name": "RTL 102.5 BRO & SIS",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "Il SOLE 24 ORE S.p.A.",
+      "lcn": 746,
+      "name": "RADIO 24 – IL SOLE 24 ORE",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO ITALIA S.p.A.",
+      "lcn": 770,
+      "name": "RADIO ITALIA SOLO MUSICA ITALIANA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "MONRADIO S.r.l.",
+      "lcn": 771,
+      "name": "R.101",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RMC ITALIA S.p.A.",
+      "lcn": 772,
+      "name": "RADIO MONTE CARLO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RADIO STUDIO 105 S.p.A",
+      "lcn": 785,
+      "name": "RADIO 105",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "VIRGIN RADIO ITALY S.p.A.",
+      "lcn": 786,
+      "name": "VIRGIN RADIO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 801,
+      "name": "Rai 3 TGR Valle d'Aosta",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 802,
+      "name": "Rai 3 TGR Piemonte HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 803,
+      "name": "Rai 3 TGR Liguria",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 804,
+      "name": "Rai 3 TGR Lombardia HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 805,
+      "name": "Rai 3 TGR Veneto",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 806,
+      "name": "Rai 3 TGR Bolzano",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 807,
+      "name": "Rai 3 TGR Trento",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 808,
+      "name": "Rai 3 TGR Südtirol HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 809,
+      "name": "Rai 3 TGR Friuli Venezia Giulia",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 810,
+      "name": "Rai 3 TGR Furlanija Krajina (Rai 3 Bis)",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 811,
+      "name": "Rai 3 TGR Emilia-Romagna HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 812,
+      "name": "Rai 3 TGR Toscana",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 813,
+      "name": "Rai 3 TGR Marche",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 814,
+      "name": "Rai 3 TGR Umbria",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 815,
+      "name": "Rai 3 TGR Lazio HD",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 816,
+      "name": "Rai 3 TGR Abruzzo",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 817,
+      "name": "Rai 3 TGR Molise",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 818,
+      "name": "Rai 3 TGR Campania",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 819,
+      "name": "Rai 3 TGR Puglia",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 820,
+      "name": "Rai 3 TGR Basilicata",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 821,
+      "name": "Rai 3 TGR Calabria",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 822,
+      "name": "Rai 3 TGR Sardegna",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAI - RADIOTELEVISONE ITALIANA S.p.A.",
+      "lcn": 823,
+      "name": "Rai 3 TGR Sicilia",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE AMICI DI MEDJUGORJE",
+      "lcn": 824,
+      "name": "ENJOY TI ITALIA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "ASSOCIAZIONE CULTURALE NUOVE FRONTIERE",
+      "lcn": 825,
+      "name": "RADIO MARGHERITA Più",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "Class Editori S.p.A.",
+      "lcn": 828,
+      "name": "CLASS CNBC",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "LA7 S.p.A.",
+      "lcn": 829,
+      "name": "La7cinema",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "KALYMPOS S.r.l.",
+      "lcn": 833,
+      "name": "SUPERSIX",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "Class Editori S.p.A.",
+      "lcn": 883,
+      "name": "CLASS TV MODA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAVI TV S.r.l.",
+      "lcn": 885,
+      "name": "RAINBOW TELEVISION",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "RAVI TV S.r.l.",
+      "lcn": 887,
+      "name": "TELEMILANO",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 888,
+      "name": "La7",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 907,
+      "name": "La7",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "SKY ITALIA S.R.L.",
+      "lcn": 908,
+      "name": "TV8 NEWS ON DEMAND",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 929,
+      "name": "La7cinema",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "N.T.I. Italia S.r.l.",
+      "lcn": 990,
+      "name": "9 NOVANTA",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 997,
+      "name": "La7",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 998,
+      "name": "La7",
+      "provinces": [],
+      "scope": "national"
+    },
+    {
+      "aka": [],
+      "company": "La7 S.p.A.",
+      "lcn": 999,
+      "name": "La7",
+      "provinces": [],
+      "scope": "national"
+    }
+  ],
+  "schema": 1,
+  "sources": {
+    "national": {
+      "rows": 305,
+      "table_sha256": "5878a71d58b730e44cab723ab69172e4d158643adebc285ae46a435971d53641"
+    },
+    "sicilia": {
+      "rows": 75,
+      "table_sha256": "328c633153cea2be8cdda534ec9f98e0a1d008312db9f824091eb922c1f28513"
+    }
+  }
+}

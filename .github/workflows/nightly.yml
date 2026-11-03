@@ -1,0 +1,88 @@
+name: Nightly playlist
+
+on:
+  schedule:
+    # 04:00 Europe/Rome: 02:00 UTC in ora legale, 03:00 UTC in ora solare; il controllo sull'ora scarta l'esecuzione errata
+    - cron: '0 2 * * *'
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Esegui anche fuori dalle 04:00 Europe/Rome'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly-playlist
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Check Rome time
+        id: gate
+        run: |
+          hour=$(TZ=Europe/Rome date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$hour" = "04" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Restore probe cache
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: output/probe_cache.json
+          key: probe-cache-${{ github.run_id }}
+          restore-keys: probe-cache-
+
+      - name: Build playlist
+        if: steps.gate.outputs.run == 'true'
+        run: python src/main.py
+
+      - name: Upload playlist
+        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playlist
+          path: |
+            output/final_playlist.m3u
+            output/final_playlist_full.m3u
+            output/lcn_changes.json
+            output/lcn_unmatched_report.json
+
+      - name: Commit official LCN table and playlist
+        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/
+          git add -f output/final_playlist.m3u output/final_playlist_full.m3u
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica"
+          else
+            if git diff --cached --quiet -- state/lcn_official.json; then msg="Update playlist (LCN invariata)"; else msg="Update playlist e LCN ufficiale"; fi
+            git commit -m "$msg"
+            git push
+          fi

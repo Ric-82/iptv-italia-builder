@@ -1,15 +1,33 @@
 sources:
   - name: DavideFulgione
     url: "http://davidefulgione.it/tv.m3u"
+    include: all
+    epg_from_header: true
+    logo_priority: 5
 
   - name: TOPTiVU
     url: "http://inthemix.altervista.org/tv.m3u"
+    include: all
+    epg_from_header: true
+    logo_priority: 4
 
   - name: OpenIPTVItaly
     url: "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/OpenIPTVItaly.m3u"
+    include: all
+    epg_from_header: true
+    logo_priority: 3
 
   - name: IPTVItalia
     url: "https://raw.githubusercontent.com/SuperFranky84/IPTV-Italia/refs/heads/main/TV"
+    include: all
+    logo_priority: 1
 
   - name: FreeTV
     url: "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
+    include: country_it
+    logo_priority: 2
+
+  - name: LiveTVCollector
+    url: "https://github.com/bugsfreeweb/LiveTVCollector/blob/main/LiveTV/Italy/LiveTV.m3u"
+    include: all
+    logo_priority: 6

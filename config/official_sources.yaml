@@ -1,0 +1,18 @@
+scopes:
+  national:
+    kind: national
+    page: "https://www.mimit.gov.it/index.php/it/comunicazioni/televisione/fornitori-di-servizi-di-media-audiovisivi-fsma/banda-700-fsma-nazionali"
+    min_rows: 100
+    max_drop_pct: 30
+
+  sicilia:
+    kind: area_tecnica
+    area_tecnica: 17
+    region: Sicilia
+    page: "https://www.mimit.gov.it/it/comunicazioni/televisione/fornitori-di-servizi-di-media-audiovisivi-fsma/banda-700-fsma"
+    # i link che corrispondono agli hint sono provati per primi; in assenza di un PDF valido si esaminano tutti gli altri
+    hints:
+      - 'AT\s*-?\s*17'
+      - 'sicilia'
+    min_rows: 20
+    max_drop_pct: 30
