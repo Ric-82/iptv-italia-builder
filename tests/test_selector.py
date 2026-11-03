@@ -75,3 +75,53 @@ def test_output_is_deterministic():
     a = {'B': [ch('B', 'u1')], 'A': [ch('A', 'u2')]}
     b = dict(reversed(list(a.items())))
     assert sel.render(build(a, [])[0]) == sel.render(build(b, [])[0])
+
+
+OFFICIAL = {'margin': 0.10, 'penalty': 0.10, 'suffixes': ('rai.it',), 'patterns': ()}
+
+
+def test_official_domain_wins_within_margin():
+    third = ch('X', 'http://cdn.example.com/a', score=1000)
+    official = ch('X', 'https://mediapolis.rai.it/a', score=920)
+    assert sel.rank_streams([third, official], OFFICIAL)[0]['url'] == official['url']
+
+
+def test_third_party_wins_when_official_is_far_worse():
+    third = ch('X', 'http://cdn.example.com/a', score=1000)
+    official = ch('X', 'https://mediapolis.rai.it/a', score=800)
+    assert sel.rank_streams([third, official], OFFICIAL)[0]['url'] == third['url']
+
+
+def test_third_party_penalty_orders_remaining_streams():
+    a = ch('X', 'http://one.example.com/a', score=1000)
+    b = ch('X', 'https://mediapolis.rai.it/a', score=950)
+    c = ch('X', 'http://two.example.com/a', score=960)
+    assert [s['url'] for s in sel.rank_streams([a, c, b], OFFICIAL)][0] == b['url']
+
+
+def test_unverified_official_never_outranks_verified():
+    third = ch('X', 'http://cdn.example.com/a', score=1000)
+    official = ch('X', 'https://mediapolis.rai.it/a', score=0, status='unreachable')
+    assert sel.rank_streams([official, third], OFFICIAL)[0]['url'] == third['url']
+
+
+def test_pick_epg_follows_source_priority_and_flags_conflicts():
+    entries = [{'playlist': 'B', 'tvg_id': 'Rai1.it', 'group_title': 'Italy'},
+               {'playlist': 'A', 'tvg_id': 'Rai.1.HD..101.it', 'group_title': 'Rai'}]
+    epg = sel.pick_epg(entries, {'A': 0, 'B': 1})
+    assert epg == {'tvg_id': 'Rai.1.HD..101.it', 'group_title': 'Rai', 'conflict': True}
+
+
+def test_pick_epg_uses_ids_merged_by_url_and_skips_generic_group():
+    entries = [{'playlist': 'A', 'tvg_id': '', 'group_title': 'Italy',
+                'tvg_ids': {'B': 'X.it'}, 'groups': {'B': 'News'}}]
+    epg = sel.pick_epg(entries, {'A': 0, 'B': 1})
+    assert (epg['tvg_id'], epg['group_title'], epg['conflict']) == ('X.it', 'News', False)
+
+
+def test_render_keeps_epg_header_and_attributes():
+    item = {'lcn': 1, 'name': 'Rai 1', 'tvg_logo': 'l', 'tvg_id': 'Rai1.it', 'group_title': 'Rai',
+            'best': {'url': 'http://a', 'playlist': 'A'}, 'backup1': None, 'backup2': None, 'fallback': []}
+    m3u, full = sel.render([item], ['http://epg/1.xml.gz', 'http://epg/2.xml.gz'])
+    assert m3u.splitlines()[0] == '#EXTM3U x-tvg-url="http://epg/1.xml.gz,http://epg/2.xml.gz" url-tvg="http://epg/1.xml.gz,http://epg/2.xml.gz"'
+    assert 'tvg-id="Rai1.it"' in m3u and 'group-title="Rai"' in m3u and 'tvg-id="Rai1.it"' in full

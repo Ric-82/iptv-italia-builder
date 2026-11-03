@@ -1,0 +1,3 @@
+# Regione usata per la numerazione regionale, oltre a quella nazionale.
+# Deve coincidere con uno scope di config/official_sources.yaml (oggi: sicilia).
+region: sicilia

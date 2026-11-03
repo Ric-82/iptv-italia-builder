@@ -1,12 +1,20 @@
+﻿# I PDF ufficiali sono archiviati nel repository (config/lcn_pdfs/<local_dir>) e sono la fonte della numerazione.
+# Il sito MIMIT (page) e' interrogato solo a scopo diagnostico: segnala se esiste un PDF piu' recente, non modifica mai la tabella.
+# Per aggiungere una regione: nuovo scope con kind: area_tecnica, la cartella local_dir con il PDF e la regione in config/user_region.yaml.
+remote_check: true
+default_region: sicilia
+
 scopes:
   national:
     kind: national
+    local_dir: nazionale
     page: "https://www.mimit.gov.it/index.php/it/comunicazioni/televisione/fornitori-di-servizi-di-media-audiovisivi-fsma/banda-700-fsma-nazionali"
     min_rows: 100
     max_drop_pct: 30
 
   sicilia:
     kind: area_tecnica
+    local_dir: regioni/sicilia
     area_tecnica: 17
     region: Sicilia
     page: "https://www.mimit.gov.it/it/comunicazioni/televisione/fornitori-di-servizi-di-media-audiovisivi-fsma/banda-700-fsma"

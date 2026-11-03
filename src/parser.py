@@ -39,16 +39,32 @@ def extract_first_url(text):
     return urls[0] if urls else ''
 
 
-def extract_epg_urls(text):
+def extract_epg_urls(text, url_filter=None):
+    urls = [u.rstrip(',;') for u in extract_urls(text)]
     return list(dict.fromkeys([
-        u for u in extract_urls(text)
-        if '.xml' in u.lower() or '.gz' in u.lower()
+        u for u in urls
+        if ('.xml' in u.lower() or '.gz' in u.lower()) and (not url_filter or re.search(url_filter, u))
     ]))
 
 
 def extract_attr(line, name):
     m = re.search(rf'(?<![\w-]){re.escape(name)}="([^"]*)', line)
     return m.group(1).strip() if m else ''
+
+
+# varianti usate dalle sorgenti per gli stessi attributi (es. "tvgid", "vg-id" e "tvg_logo" in TOPTiVU/IPTVItalia)
+ATTR_ALIASES = {
+    'tvg-id': ('tvg-id', 'tvgid', 'tvg_id', 'vg-id'),
+    'tvg-logo': ('tvg-logo', 'tvg_logo'),
+}
+
+
+def extract_first_attr(line, canonical):
+    for name in ATTR_ALIASES.get(canonical, (canonical,)):
+        value = extract_attr(line, name)
+        if value:
+            return value
+    return ''
 
 
 def entry_key(entry):
@@ -83,9 +99,9 @@ def parse_playlist(lines, pname, include):
         entries.append({
             'playlist': pname,
             'display_name': display_name,
-            'tvg_id': extract_attr(line, 'tvg-id'),
+            'tvg_id': extract_first_attr(line, 'tvg-id'),
             'tvg_name': tvg_name,
-            'tvg_logo': extract_first_url(extract_attr(line, 'tvg-logo')),
+            'tvg_logo': extract_first_url(extract_first_attr(line, 'tvg-logo')),
             'tvg_chno': extract_attr(line, 'tvg-chno'),
             'group_title': extract_attr(line, 'group-title'),
             'url': url,
@@ -141,12 +157,16 @@ def dedupe_by_url(entries):
         u = e['url']
         if u in seen:
             kept = seen[u]
-            for field in ('tvg_logo', 'tvg_chno', 'group_title'):
+            for field in ('tvg_logo', 'tvg_chno', 'group_title', 'tvg_id'):
                 if not kept.get(field) and e.get(field):
                     kept[field] = e[field]
-            # il logo di ogni sorgente resta disponibile per la priorita' dei logo
+            # logo e tvg-id di ogni sorgente restano disponibili per le rispettive priorita'
             if e.get('tvg_logo'):
                 kept.setdefault('logos', {}).setdefault(e['playlist'], e['tvg_logo'])
+            if e.get('tvg_id'):
+                kept.setdefault('tvg_ids', {}).setdefault(e['playlist'], e['tvg_id'])
+            if e.get('group_title'):
+                kept.setdefault('groups', {}).setdefault(e['playlist'], e['group_title'])
             continue
         seen[u] = e
         out.append(e)
@@ -160,7 +180,7 @@ def main():
     all_entries = []
     stats = {}
     epg_sources = {}
-    all_epg = []
+    epg_order = []
 
     for src in sources:
         pname = src['name']
@@ -171,10 +191,10 @@ def main():
         lines = playlist.read_text(encoding='utf-8', errors='ignore').splitlines()
 
         if src.get('epg_from_header') and lines:
-            urls = extract_epg_urls('\n'.join(lines[:10]))
+            urls = extract_epg_urls('\n'.join(lines[:10]), src.get('epg_url_filter'))
             if urls:
                 epg_sources[pname] = urls
-                all_epg.extend(urls)
+                epg_order.append((src.get('epg_priority', 99), pname))
 
         entries = [e for e in parse_playlist(lines, pname, src.get('include', 'all')) if e['url']]
         all_entries.extend(entries)
@@ -204,12 +224,9 @@ def main():
         merged[alias_map.get(key, key)].extend(entries)
     channels = {k: dedupe_by_url(v) for k, v in sorted(merged.items())}
 
-    all_epg = list(dict.fromkeys(all_epg))
-    preferred = ''
-    if epg_sources.get('OpenIPTVItaly'):
-        preferred = epg_sources['OpenIPTVItaly'][0]
-    elif all_epg:
-        preferred = all_epg[0]
+    # i riferimenti XMLTV seguono la priorita' delle sorgenti (epg_priority)
+    all_epg = list(dict.fromkeys(u for _, name in sorted(epg_order) for u in epg_sources[name]))
+    preferred = all_epg[0] if all_epg else ''
     epg_sources['_all'] = all_epg
     epg_sources['_preferred'] = preferred
 

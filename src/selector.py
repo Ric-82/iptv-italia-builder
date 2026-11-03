@@ -2,7 +2,9 @@ from collections import Counter
 from pathlib import Path
 import difflib
 import json
+import re
 import unicodedata
+from urllib.parse import urlparse
 
 import yaml
 
@@ -22,6 +24,8 @@ UNMATCHED_FILE = OUTPUT_DIR / "lcn_unmatched_report.json"
 QUARANTINE_FILE = OUTPUT_DIR / "quarantine_technical_final.json"
 DISPLAY_NAMES_FILE = BASE_DIR / "config" / "display_names.json"
 MERGES_FILE = BASE_DIR / "config" / "editorial_merges.json"
+OFFICIAL_DOMAINS_FILE = BASE_DIR / "config" / "official_domains.yaml"
+EPG_FILE = OUTPUT_DIR / "epg_sources.json"
 DUPLICATE_STREAMS_FILE = OUTPUT_DIR / "lcn_duplicate_streams_removed.json"
 DEDUP_REPORT_FILE = OUTPUT_DIR / "dedup_report.json"
 
@@ -37,10 +41,46 @@ def sort_text(value):
     return stripped.casefold()
 
 
-def rank_streams(entries):
-    # flussi verificati prima, poi punteggio qualita' (compute_score del prober); l'ordine di raccolta e' lo spareggio
+def load_official_domains(path=OFFICIAL_DOMAINS_FILE):
+    if not path.exists():
+        return {'margin': 0.0, 'penalty': 0.0, 'suffixes': (), 'patterns': ()}
+    cfg = yaml.safe_load(path.read_text(encoding='utf-8')) or {}
+    pref = cfg.get('preference', {})
+    return {'margin': float(pref.get('margin', 0.0)), 'penalty': float(pref.get('penalty', 0.0)),
+            'suffixes': tuple(s.lower() for s in cfg.get('suffixes', [])),
+            'patterns': tuple(re.compile(p, re.I) for p in cfg.get('patterns', []))}
+
+
+OFFICIAL = load_official_domains()
+
+
+def is_official(url, official=None):
+    official = official or OFFICIAL
+    host = (urlparse(url or '').hostname or '').lower()
+    return bool(host) and (any(host == s or host.endswith('.' + s) for s in official['suffixes'])
+                           or any(p.search(host) for p in official['patterns']))
+
+
+def rank_streams(entries, official=None):
+    # flussi verificati prima, poi punteggio qualita' (compute_score del prober); l'ordine di raccolta e' lo spareggio.
+    # Preferenza domini ufficiali: entro `margin` dal miglior score vince l'ufficiale; i terzi hanno `penalty` sullo score.
+    official = official or OFFICIAL
     usable = [e for e in entries if e.get('url')]
-    return sorted(usable, key=lambda e: (e.get('probe_status') == 'ok', e.get('score') or 0), reverse=True)
+
+    def adjusted(e):
+        score = e.get('score') or 0
+        return score if is_official(e['url'], official) else score * (1 - official['penalty'])
+
+    ranked = sorted(usable, key=lambda e: (e.get('probe_status') == 'ok', adjusted(e)), reverse=True)
+    verified = [e for e in ranked if e.get('probe_status') == 'ok']
+    if verified and official['margin'] > 0:
+        top = max(e.get('score') or 0 for e in verified)
+        official_ok = [e for e in verified if is_official(e['url'], official) and (e.get('score') or 0) >= top * (1 - official['margin'])]
+        if official_ok:
+            first = max(official_ok, key=lambda e: e.get('score') or 0)
+            ranked.remove(first)
+            ranked.insert(0, first)
+    return ranked
 
 
 def channel_name(entries, logo_priority):
@@ -63,6 +103,25 @@ def pick_logo(entries, logo_priority):
         candidates.extend(e.get('logos', {}).items())
     candidates.sort(key=lambda c: logo_priority.get(c[0], 99))
     return candidates[0][1] if candidates else ''
+
+
+GENERIC_GROUPS = {'italy', 'italia'}
+
+
+def pick_epg(entries, epg_priority):
+    """tvg-id e group-title dalla sorgente a priorita' EPG piu' alta; `conflict` e' True se le sorgenti divergono sul tvg-id."""
+    ids, groups = [], []
+    for e in entries:
+        if e.get('tvg_id'):
+            ids.append((e.get('playlist'), e['tvg_id']))
+        ids.extend(e.get('tvg_ids', {}).items())
+        if e.get('group_title'):
+            groups.append((e.get('playlist'), e['group_title']))
+        groups.extend(e.get('groups', {}).items())
+    ids.sort(key=lambda c: epg_priority.get(c[0], 99))
+    groups.sort(key=lambda c: (c[1].casefold() in GENERIC_GROUPS, epg_priority.get(c[0], 99)))
+    return {'tvg_id': ids[0][1] if ids else '', 'group_title': groups[0][1] if groups else '',
+            'conflict': len({v for _, v in ids}) > 1}
 
 
 def set_streams(item, streams):
@@ -173,12 +232,21 @@ def build_playlists(channels, probes, table_entries, logo_priority, name_aliases
                    'official_without_stream': official_without_stream, 'quarantined': quarantined}
 
 
-def render(final):
-    m3u = ['#EXTM3U']
-    m3u_full = ['#EXTM3U']
+def esc(value):
+    return str(value).replace('"', "'")
+
+
+def render(final, epg_urls=()):
+    header = '#EXTM3U'
+    if epg_urls:
+        joined = ','.join(epg_urls)
+        header += f' x-tvg-url="{joined}" url-tvg="{joined}"'
+    m3u = [header]
+    m3u_full = [header]
     for item in final:
         chno = item['lcn'] if item['lcn'] is not None else ''
-        head = f'tvg-chno="{chno}" tvg-name="{item["name"]}" tvg-logo="{item["tvg_logo"]}"'
+        head = (f'tvg-id="{esc(item.get("tvg_id", ""))}" tvg-chno="{chno}" tvg-name="{esc(item["name"])}" '
+                f'tvg-logo="{item["tvg_logo"]}" group-title="{esc(item.get("group_title", ""))}"')
         m3u.append(f'#EXTINF:-1 {head},{item["name"]}')
         m3u.append(item['best']['url'])
 
@@ -218,7 +286,14 @@ def main():
     from cleanup import finalize
     merges = json.loads(MERGES_FILE.read_text(encoding='utf-8')) if MERGES_FILE.exists() else {}
     final, cleanup_report = finalize(final, channels, logo_priority, overrides, merges)
-    m3u, m3u_full = render(final)
+    epg_priority = {s['name']: s.get('epg_priority', 99) for s in sources}
+    for item in final:
+        epg = pick_epg([e for key in item['members'] for e in channels[key]], epg_priority)
+        item['tvg_id'], item['group_title'] = epg['tvg_id'], epg['group_title']
+    epg_urls = []
+    if EPG_FILE.exists():
+        epg_urls = json.loads(EPG_FILE.read_text(encoding='utf-8')).get('_all', [])
+    m3u, m3u_full = render(final, epg_urls)
 
     numbered = [i for i in final if i['lcn'] is not None]
     SELECTED_FILE.write_text(json.dumps(

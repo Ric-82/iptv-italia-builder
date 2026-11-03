@@ -1,14 +1,14 @@
 {
   "national": {
     "doc_date": "2025-12-10",
-    "link_text": "Elenco LCN nazionali",
+    "link_text": "LCN_PUBBLICAZIONE_10.12.2025.pdf",
     "sha256": "e2817900ad322f91417b0d2845c123be57f82d9f0d1eb43a821c89222f415495",
-    "url": "https://www.mimit.gov.it/images/stories/documenti/LCN_PUBBLICAZIONE_10.12.2025.pdf"
+    "url": "config/lcn_pdfs/nazionale/LCN_PUBBLICAZIONE_10.12.2025.pdf"
   },
   "sicilia": {
     "doc_date": "2026-10-26",
-    "link_text": "Elenco aggiornato delle numerazioni assegnate LCN AT17 - Sicilia 26 ottobre 2026",
+    "link_text": "LCN_AT17.pdf",
     "sha256": "920e30e4fd8901cd43619831d1d6ea87ba5e7d05c38efcc426306e9c9458fc64",
-    "url": "https://www.mimit.gov.it/images/stories/documenti/allegati/lcn/LCN_AT17.pdf"
+    "url": "config/lcn_pdfs/regioni/sicilia/LCN_AT17.pdf"
   }
 }

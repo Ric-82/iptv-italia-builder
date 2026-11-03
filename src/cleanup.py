@@ -206,10 +206,15 @@ def finalize(final, channels, logo_priority, overrides, merges=None):
         kept.append(item)
     numbered = kept
 
-    # 3) alfabetici con lo stesso URL di un numerato: resta solo il numerato
+    # 3) alfabetici con lo stesso URL di un numerato: resta solo il numerato.
+    # Si confronta anche il flusso migliore per solo score, cosi' la preferenza dei domini ufficiali non reintroduce duplicati.
+    numbered_urls = {}
+    for item in numbered:
+        if item['streams']:
+            numbered_urls.setdefault(max(item['streams'], key=stream_key)['url'], item)
     removed_plain_numbered, rest = [], []
     for item in plain:
-        owner = seen.get(item['best']['url'])
+        owner = seen.get(item['best']['url']) or numbered_urls.get(item['best']['url'])
         if owner:
             removed_plain_numbered.append({'name': item['name'], 'channel': item['channel'],
                                            'url': item['best']['url'],

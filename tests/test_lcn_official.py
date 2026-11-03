@@ -98,3 +98,31 @@ def test_suspicious_drop_is_rejected(env):
 def test_text_dates():
     assert lo._text_date('LCN AT17 - Sicilia 26 ottobre 2026') == '2026-10-26'
     assert lo._text_date('LCN_PUBBLICAZIONE_10.12.2025.pdf') == '2025-12-10'
+
+
+def test_local_pdfs_are_used_without_network(tmp_path, monkeypatch):
+    folder = tmp_path / 'pdfs' / 'nazionale'
+    folder.mkdir(parents=True)
+    (folder / 'qualunque_nome.pdf').write_bytes(b'new')
+    monkeypatch.setattr(lo, 'read_pdf', lambda d: {'text': 'FORNITORE MARCHIO LCN', 'meta_date': '2025-12-10'})
+    monkeypatch.setattr(lo, 'extract_rows', lambda d: BASE)
+
+    def offline(url):
+        raise lo.OfficialSourceError('timeout')
+
+    cfg = {'scopes': {'national': {**CFG['scopes']['national'], 'local_dir': 'nazionale'}}}
+    table, fp = tmp_path / 't.json', tmp_path / 'f.json'
+    result = lo.update(cfg, fetcher=offline, table_file=table, fingerprint_file=fp,
+                       pdf_root=tmp_path / 'pdfs', check_remote=True)
+    assert result['changed'] and not result['errors']
+    assert result['scopes']['national']['source'] == 'local'
+    assert result['scopes']['national']['remote_check']['status'] == 'non raggiungibile'
+    assert not lo.update(cfg, fetcher=offline, table_file=table, fingerprint_file=fp, pdf_root=tmp_path / 'pdfs')['changed']
+
+
+def test_only_selected_region_is_active():
+    cfg = {'scopes': {'national': {'kind': 'national'}, 'sicilia': {'kind': 'area_tecnica'},
+                      'lombardia': {'kind': 'area_tecnica'}}}
+    assert set(lo.active_scopes(cfg, 'lombardia')) == {'national', 'lombardia'}
+    with pytest.raises(lo.OfficialSourceError):
+        lo.active_scopes(cfg, 'atlantide')

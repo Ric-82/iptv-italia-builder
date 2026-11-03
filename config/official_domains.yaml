@@ -1,0 +1,23 @@
+# Preferenza per i flussi serviti da domini ufficiali degli editori.
+# Un flusso e' "ufficiale" se l'host coincide con un suffisso di `suffixes` o corrisponde a una regex di `patterns`.
+preference:
+  # un flusso ufficiale verificato con score >= (1 - margin) * miglior score vince sugli altri
+  margin: 0.10
+  # i flussi non ufficiali partecipano al ranking residuo con score * (1 - penalty)
+  penalty: 0.10
+
+suffixes:
+  - rai.it
+  - rai.tv
+  - raiplay.it
+  - rainews.it
+  - mediaset.it
+  - mediaset.net
+  - mediasetplay.mediaset.it
+  - la7.it
+  - discovery.com
+  - dplay.it
+
+patterns:
+  - '^rai[a-z0-9-]*\.akamaized\.net$'
+  - '^boing\.akamaized\.net$'

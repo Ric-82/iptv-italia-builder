@@ -22,6 +22,8 @@ from keys import name_key
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_FILE = BASE_DIR / 'config' / 'official_sources.yaml'
+REGION_FILE = BASE_DIR / 'config' / 'user_region.yaml'
+PDF_DIR = BASE_DIR / 'config' / 'lcn_pdfs'
 STATE_DIR = BASE_DIR / 'state'
 TABLE_FILE = STATE_DIR / 'lcn_official.json'
 FINGERPRINT_FILE = STATE_DIR / 'official_fingerprint.json'
@@ -264,43 +266,117 @@ def diff_entries(old, new):
     return {'added': sorted(n - o), 'removed': sorted(o - n)}
 
 
-def update(config, fetcher=fetch, table_file=TABLE_FILE, fingerprint_file=FINGERPRINT_FILE):
+def discover_local(scope, cfg, fingerprint, pdf_root):
+    """Sceglie il PDF locale piu' recente valido per lo scope (riconosciuto dal contenuto, non dal nome).
+
+    Ritorna None se la cartella non contiene PDF, altrimenti (candidato, righe | None se identico al gia' elaborato).
+    """
+    folder = pdf_root / cfg['local_dir']
+    files = sorted(folder.glob('*.pdf')) if folder.is_dir() else []
+    if not files:
+        return None
+    candidates, last_error = [], None
+    for path in files:
+        data = path.read_bytes()
+        info = read_pdf(data)
+        if not info or not classify(cfg, info['text']):
+            continue
+        candidates.append({
+            'url': path.relative_to(pdf_root.parent.parent).as_posix(), 'text': path.name, 'order': 0,
+            'sha256': hashlib.sha256(data).hexdigest(), 'data': data,
+            'doc_date': info['meta_date'] or _text_date(path.name),
+        })
+    candidates.sort(key=lambda c: (c['doc_date'], c['text']), reverse=True)
+    for cand in candidates:
+        if fingerprint.get(scope, {}).get('sha256') == cand['sha256']:
+            return cand, None
+        try:
+            return cand, extract_rows(cand['data'])
+        except Exception as exc:
+            last_error = exc
+    raise OfficialSourceError(f'{scope}: nessun PDF locale valido in {folder} ({last_error})')
+
+
+def remote_check(scope, cfg, cand, fetcher):
+    """Controllo facoltativo e solo diagnostico sul sito del Ministero: non modifica mai la tabella."""
+    if not cfg.get('page'):
+        return None
+    try:
+        remote, rows = discover(scope, cfg, {scope: {'sha256': cand['sha256']}}, fetcher)
+    except Exception as exc:
+        return {'status': 'non raggiungibile', 'detail': str(exc)[:200]}
+    if rows is None:
+        return {'status': 'identico al PDF locale'}
+    newer = remote['doc_date'] > cand['doc_date']
+    return {'status': 'PDF piu\' recente disponibile' if newer else 'PDF diverso dal locale',
+            'url': remote['url'], 'doc_date': remote['doc_date'], 'local_doc_date': cand['doc_date']}
+
+
+def active_scopes(config, region):
+    """Scope nazionale piu' la sola regione scelta dall'utente (se configurata)."""
+    scopes = config['scopes']
+    chosen = {name: cfg for name, cfg in scopes.items() if cfg['kind'] == 'national'}
+    if region:
+        if region not in scopes or scopes[region]['kind'] == 'national':
+            known = ', '.join(n for n, c in scopes.items() if c['kind'] != 'national')
+            raise OfficialSourceError(f'regione "{region}" non configurata (disponibili: {known})')
+        chosen[region] = scopes[region]
+    return chosen
+
+
+def load_region(path=REGION_FILE):
+    if not path.exists():
+        return ''
+    return str((yaml.safe_load(path.read_text(encoding='utf-8')) or {}).get('region') or '').strip().lower()
+
+
+def update(config, fetcher=fetch, table_file=TABLE_FILE, fingerprint_file=FINGERPRINT_FILE,
+           pdf_root=PDF_DIR, region='', check_remote=False, remote_fetcher=None):
     table = json.loads(table_file.read_text(encoding='utf-8')) if table_file.exists() else {'entries': [], 'sources': {}}
     fingerprint = json.loads(fingerprint_file.read_text(encoding='utf-8')) if fingerprint_file.exists() else {}
-    entries = list(table['entries'])
-    sources = dict(table.get('sources', {}))
+    scopes = active_scopes(config, region) if region is not None and region != '' else config['scopes']
+    entries = [e for e in table['entries'] if e['scope'] in scopes]
+    sources = {k: v for k, v in table.get('sources', {}).items() if k in scopes}
     changes, errors = {}, []
 
-    for scope, cfg in config['scopes'].items():
+    for scope, cfg in scopes.items():
         previous_scope = [e for e in entries if e['scope'] == scope]
         try:
-            cand, rows = discover(scope, cfg, fingerprint, fetcher)
+            found = discover_local(scope, cfg, fingerprint, pdf_root) if cfg.get('local_dir') else None
+            origin = 'local'
+            if found is None:
+                origin = 'remote'
+                found = discover(scope, cfg, fingerprint, fetcher)
+            cand, rows = found
+            if rows is None and not previous_scope:
+                # fingerprint presente ma tabella assente: ricostruzione forzata
+                fingerprint.pop(scope, None)
+                found = discover_local(scope, cfg, fingerprint, pdf_root) if origin == 'local' else discover(scope, cfg, fingerprint, fetcher)
+                cand, rows = found
             if rows is None:
-                if not previous_scope:
-                    # fingerprint presente ma tabella assente: ricostruzione forzata
-                    fingerprint.pop(scope, None)
-                    cand, rows = discover(scope, cfg, fingerprint, fetcher)
-                else:
-                    changes[scope] = {'changed': False}
-                    continue
-            validate_rows(scope, cfg, rows, entries)
-            new_scope = build_scope_entries(scope, rows)
-            digest = table_hash(sort_entries(new_scope))
-            if sources.get(scope, {}).get('table_sha256') == digest and previous_scope:
-                changes[scope] = {'changed': False, 'note': 'PDF ripubblicato con tabella identica'}
+                changes[scope] = {'changed': False, 'source': origin, 'pdf': cand['url']}
             else:
-                entries = [e for e in entries if e['scope'] != scope] + new_scope
-                sources[scope] = {'table_sha256': digest, 'rows': len(new_scope)}
-                changes[scope] = {'changed': True, **diff_entries(previous_scope, new_scope)}
+                validate_rows(scope, cfg, rows, entries)
+                new_scope = build_scope_entries(scope, rows)
+                digest = table_hash(sort_entries(new_scope))
+                if sources.get(scope, {}).get('table_sha256') == digest and previous_scope:
+                    changes[scope] = {'changed': False, 'note': 'PDF ripubblicato con tabella identica'}
+                else:
+                    entries = [e for e in entries if e['scope'] != scope] + new_scope
+                    sources[scope] = {'table_sha256': digest, 'rows': len(new_scope)}
+                    changes[scope] = {'changed': True, **diff_entries(previous_scope, new_scope)}
+                changes[scope].update({'source': origin, 'pdf': cand['url']})
             fingerprint[scope] = {'url': cand['url'], 'sha256': cand['sha256'], 'doc_date': cand['doc_date'],
                                   'link_text': cand['text']}
+            if check_remote and origin == 'local':
+                changes[scope]['remote_check'] = remote_check(scope, cfg, cand, remote_fetcher or fetcher)
         except Exception as exc:
             errors.append(f'{scope}: {exc}')
             changes[scope] = {'changed': False, 'error': str(exc)}
 
     new_table = {'schema': 1, 'sources': sources, 'entries': sort_entries(entries)}
     wrote = _write_if_changed(table_file, dump(new_table))
-    _write_if_changed(fingerprint_file, dump(fingerprint))
+    _write_if_changed(fingerprint_file, dump({k: v for k, v in fingerprint.items() if k in scopes}))
     return {'changed': wrote, 'scopes': changes, 'errors': errors}
 
 
@@ -310,12 +386,22 @@ def load_table(table_file=TABLE_FILE):
 
 def main():
     config = yaml.safe_load(CONFIG_FILE.read_text(encoding='utf-8'))
-    result = update(config)
+    region = load_region() or config.get('default_region', '')
+    check = bool(config.get('remote_check', True)) and os.environ.get('LCN_REMOTE_CHECK', '1') != '0'
+    try:
+        result = update(config, region=region or None, check_remote=check,
+                        remote_fetcher=lambda url: fetch(url, retries=1, timeout=10))
+    except OfficialSourceError as exc:
+        print('[ERRORE]', exc, file=sys.stderr)
+        return 1
     OUTPUT_DIR.mkdir(exist_ok=True)
     CHANGES_FILE.write_text(dump(result), encoding='utf-8')
+    print(f'Regione: {region or "(nessuna)"}')
     print('LCN ufficiale aggiornata:' if result['changed'] else 'LCN ufficiale invariata.')
     for scope, info in result['scopes'].items():
-        print(f'  {scope}: {info}' if info.get('error') or info.get('note') else f'  {scope}: changed={info["changed"]}')
+        remote = info.get('remote_check')
+        print(f'  {scope}: changed={info["changed"]} fonte={info.get("source", "-")} pdf={info.get("pdf", "-")}'
+              + (f' | MIMIT: {remote["status"]}' if remote else '') + (f' | {info["error"]}' if info.get('error') else ''))
     if result['errors']:
         for e in result['errors']:
             print('[ERRORE]', e, file=sys.stderr)
