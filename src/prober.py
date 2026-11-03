@@ -125,9 +125,11 @@ def parse_dash_text(text):
 
 def parse_manifest_text(text):
     if '#EXTM3U' in text:
-        return parse_hls_text(text)
+        parsed = parse_hls_text(text)
+        return {**parsed, 'manifest_type': 'hls'} if parsed else None
     if '<MPD' in text:
-        return parse_dash_text(text)
+        parsed = parse_dash_text(text)
+        return {**parsed, 'manifest_type': 'dash'} if parsed else None
     return None
 
 
@@ -200,7 +202,9 @@ try:
             item = dict(entry)
             width = height = 0
             bitrate = None
+            codec = None
             ffprobe_status = None
+            ffprobe_result = 'no_video'
             try:
                 proc = subprocess.run([FFPROBE,'-v','quiet','-show_streams','-print_format','json',url],capture_output=True,text=True,timeout=TIMEOUT)
                 data = json.loads(proc.stdout) if proc.stdout else {}
@@ -208,46 +212,69 @@ try:
                 width = video.get('width') or 0
                 height = video.get('height') or 0
                 bitrate = video.get('bit_rate')
+                codec = video.get('codec_name')
+                ffprobe_result = 'ok' if width * height > 0 else ('no_output' if not proc.stdout else 'no_video')
             except subprocess.TimeoutExpired as ex:
                 item['error'] = str(ex)
                 ffprobe_status = 'timeout'
+                ffprobe_result = 'timeout'
             except Exception as ex:
                 item['error'] = str(ex)
                 ffprobe_status = 'unreachable'
+                ffprobe_result = 'error'
 
             score = compute_score(width, height, bitrate)
             manifest = None
             attempted = False
+            manifest_kind = None
+            http_status = None
             if width * height == 0:
                 low = url.lower()
                 attempted = any(k in low for k in ('mediapolis.rai.it', 'jmp2.uk', 'la7', '.m3u8', '.mpd'))
                 if 'mediapolis.rai.it' in low:
                     manifest = resolve_mediapolis_manifest(url)
+                    manifest_kind = 'mediapolis'
                     if manifest: stats['mediapolis_recovered'] += 1
                 elif 'jmp2.uk' in low or 'la7' in low:
                     manifest = resolve_la7_manifest(url)
+                    manifest_kind = 'la7'
                     if manifest: stats['la7_recovered'] += 1
                 elif '.m3u8' in low:
                     manifest = probe_hls_manifest(url)
+                    manifest_kind = 'manifest_hls'
                     if manifest: stats['hls_recovered'] += 1
                 elif '.mpd' in low:
                     manifest = probe_dash_manifest(url)
+                    manifest_kind = 'manifest_dash'
                     if manifest: stats['dash_recovered'] += 1
+                if attempted:
+                    http_status = last_http_status
 
+            # telemetria: origine dei dati di qualita' (non influisce sul ranking)
+            item['ffprobe_result'] = ffprobe_result
+            if http_status is not None:
+                item['http_status'] = http_status
             if manifest:
                 item.pop('error', None)
                 item.update(manifest)
+                # per i manifest recuperati da mediapolis/la7 il tipo effettivo e' quello rilevato dal contenuto
+                item['probe_source'] = manifest_kind if manifest_kind in ('manifest_hls', 'manifest_dash') \
+                    else f'{manifest_kind}:{manifest.get("manifest_type", "?")}'
                 status = 'ok'
             else:
                 item['score'] = score
                 if width * height > 0:
+                    item.update({'width': width, 'height': height, 'bitrate': bitrate, 'codec': codec})
+                    item['probe_source'] = 'ffprobe'
                     status = 'ok'
-                elif attempted and last_http_status in ('forbidden', 'timeout', 'unreachable'):
-                    status = last_http_status
-                elif attempted:
-                    status = 'unclassified'
                 else:
-                    status = ffprobe_status or 'unclassified'
+                    item['probe_source'] = 'fallback'
+                    if attempted and last_http_status in ('forbidden', 'timeout', 'unreachable'):
+                        status = last_http_status
+                    elif attempted:
+                        status = 'unclassified'
+                    else:
+                        status = ffprobe_status or 'unclassified'
                 if status != 'ok':
                     stats[status] += 1
             item['probe_status'] = status
