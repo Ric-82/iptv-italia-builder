@@ -144,6 +144,9 @@ def dedupe_by_url(entries):
             for field in ('tvg_logo', 'tvg_chno', 'group_title'):
                 if not kept.get(field) and e.get(field):
                     kept[field] = e[field]
+            # il logo di ogni sorgente resta disponibile per la priorita' dei logo
+            if e.get('tvg_logo'):
+                kept.setdefault('logos', {}).setdefault(e['playlist'], e['tvg_logo'])
             continue
         seen[u] = e
         out.append(e)

@@ -15,19 +15,19 @@ sources:
     url: "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/OpenIPTVItaly.m3u"
     include: all
     epg_from_header: true
-    logo_priority: 3
+    logo_priority: 0
 
   - name: IPTVItalia
     url: "https://raw.githubusercontent.com/SuperFranky84/IPTV-Italia/refs/heads/main/TV"
     include: all
-    logo_priority: 1
+    logo_priority: 2
 
   - name: FreeTV
     url: "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
     include: country_it
-    logo_priority: 2
+    logo_priority: 3
 
   - name: LiveTVCollector
     url: "https://github.com/bugsfreeweb/LiveTVCollector/blob/main/LiveTV/Italy/LiveTV.m3u"
     include: all
-    logo_priority: 6
+    logo_priority: 1

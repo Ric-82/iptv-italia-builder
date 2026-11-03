@@ -20,6 +20,10 @@ NAME_ALIASES_FILE = BASE_DIR / "config" / "official_name_aliases.json"
 LCN_REPORT_FILE = OUTPUT_DIR / "lcn_assignment_report.json"
 UNMATCHED_FILE = OUTPUT_DIR / "lcn_unmatched_report.json"
 QUARANTINE_FILE = OUTPUT_DIR / "quarantine_technical_final.json"
+DISPLAY_NAMES_FILE = BASE_DIR / "config" / "display_names.json"
+MERGES_FILE = BASE_DIR / "config" / "editorial_merges.json"
+DUPLICATE_STREAMS_FILE = OUTPUT_DIR / "lcn_duplicate_streams_removed.json"
+DEDUP_REPORT_FILE = OUTPUT_DIR / "dedup_report.json"
 
 SELECTED_FILE = OUTPUT_DIR / "selected_channels.json"
 PLAYLIST_FILE = OUTPUT_DIR / "final_playlist.m3u"
@@ -52,9 +56,21 @@ def channel_name(entries, logo_priority):
 
 
 def pick_logo(entries, logo_priority):
-    with_logo = [e for e in entries if e.get('tvg_logo')]
-    with_logo.sort(key=lambda e: logo_priority.get(e.get('playlist'), 99))
-    return with_logo[0]['tvg_logo'] if with_logo else ''
+    candidates = []
+    for e in entries:
+        if e.get('tvg_logo'):
+            candidates.append((e.get('playlist'), e['tvg_logo']))
+        candidates.extend(e.get('logos', {}).items())
+    candidates.sort(key=lambda c: logo_priority.get(c[0], 99))
+    return candidates[0][1] if candidates else ''
+
+
+def set_streams(item, streams):
+    item['streams'] = streams
+    item['best'] = streams[0]
+    item['backup1'] = streams[1] if len(streams) > 1 else None
+    item['backup2'] = streams[2] if len(streams) > 2 else None
+    item['fallback'] = [s for s in streams if (s.get('score') or 0) == 0]
 
 
 def official_keys(entry):
@@ -149,15 +165,9 @@ def build_playlists(channels, probes, table_entries, logo_priority, name_aliases
         if not name or is_technical_id(name):
             quarantined.append({'channel': item['channel'], 'name': name})
             continue
-        streams = ranked[item['channel']]
-        item.update({
-            'name': name,
-            'tvg_logo': pick_logo(entries, logo_priority),
-            'best': streams[0],
-            'backup1': streams[1] if len(streams) > 1 else None,
-            'backup2': streams[2] if len(streams) > 2 else None,
-            'fallback': [s for s in streams if (s.get('score') or 0) == 0],
-        })
+        item['name'] = name
+        item['tvg_logo'] = pick_logo(entries, logo_priority)
+        set_streams(item, ranked[item['channel']])
         final.append(item)
     return final, {'unmatched': unmatched, 'skipped': skipped,
                    'official_without_stream': official_without_stream, 'quarantined': quarantined}
@@ -203,12 +213,28 @@ def main():
     name_aliases = json.loads(NAME_ALIASES_FILE.read_text(encoding='utf-8')) if NAME_ALIASES_FILE.exists() else {}
 
     final, report = build_playlists(channels, probes, table['entries'], logo_priority, name_aliases)
+    before = {'total': len(final), 'numbered': sum(1 for i in final if i['lcn'] is not None)}
+    overrides = json.loads(DISPLAY_NAMES_FILE.read_text(encoding='utf-8')) if DISPLAY_NAMES_FILE.exists() else {}
+    from cleanup import finalize
+    merges = json.loads(MERGES_FILE.read_text(encoding='utf-8')) if MERGES_FILE.exists() else {}
+    final, cleanup_report = finalize(final, channels, logo_priority, overrides, merges)
     m3u, m3u_full = render(final)
 
     numbered = [i for i in final if i['lcn'] is not None]
     SELECTED_FILE.write_text(json.dumps(
-        {(f"{i['lcn']}:{i['channel']}" if i['lcn'] is not None else i['channel']): i for i in final},
+        {(f"{i['lcn']}:{i['channel']}" if i['lcn'] is not None else i['channel']):
+         {k: v for k, v in i.items() if k != 'streams'} for i in final},
         indent=2, ensure_ascii=False), encoding='utf-8')
+    DUPLICATE_STREAMS_FILE.write_text(json.dumps(
+        cleanup_report['numbered_duplicates_removed'], indent=2, ensure_ascii=False), encoding='utf-8')
+    DEDUP_REPORT_FILE.write_text(json.dumps({
+        'before': before,
+        'after': {'total': len(final), 'numbered': len(numbered)},
+        'plain_removed_as_numbered': cleanup_report['plain_removed_as_numbered'],
+        'plain_folded_into_numbered': cleanup_report['plain_folded_into_numbered'],
+        'plain_merged': cleanup_report['plain_merged'],
+        'names_normalized': cleanup_report['names_normalized'],
+    }, indent=2, ensure_ascii=False), encoding='utf-8')
     PLAYLIST_FILE.write_text(m3u, encoding='utf-8')
     PLAYLIST_FULL_FILE.write_text(m3u_full, encoding='utf-8')
     QUARANTINE_FILE.write_text(json.dumps(report['quarantined'], indent=2, ensure_ascii=False), encoding='utf-8')
