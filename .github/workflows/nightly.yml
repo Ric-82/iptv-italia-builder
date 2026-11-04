@@ -2,13 +2,12 @@ name: Nightly playlist
 
 on:
   schedule:
-    # 04:00 Europe/Rome: 02:00 UTC in ora legale, 03:00 UTC in ora solare; il controllo sull'ora scarta l'esecuzione errata
-    - cron: '0 2 * * *'
-    - cron: '0 3 * * *'
+    # 02:00 UTC (03:00/04:00 Europe/Rome); GitHub può ritardare l'avvio, ma la build non dipende dall'ora
+    - cron: '17 2 * * *'
   workflow_dispatch:
     inputs:
       force:
-        description: 'Esegui anche fuori dalle 04:00 Europe/Rome'
+        description: 'Esecuzione manuale'
         type: boolean
         default: true
 
@@ -24,39 +23,24 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
-      - name: Check Rome time
-        id: gate
-        run: |
-          hour=$(TZ=Europe/Rome date +%H)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$hour" = "04" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - uses: actions/checkout@v4
-        if: steps.gate.outputs.run == 'true'
 
       - uses: actions/setup-python@v5
-        if: steps.gate.outputs.run == 'true'
         with:
           python-version: '3.12'
           cache: pip
 
       - name: Install dependencies
-        if: steps.gate.outputs.run == 'true'
         run: |
           pip install -r requirements.txt
           sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: ffprobe diagnostics
-        if: steps.gate.outputs.run == 'true'
         run: |
           which ffprobe
           ffprobe -version
 
       - name: Restore probe cache
-        if: steps.gate.outputs.run == 'true'
         uses: actions/cache@v4
         with:
           path: output/probe_cache.json
@@ -64,15 +48,14 @@ jobs:
           restore-keys: probe-cache-
 
       - name: Build playlist
-        if: steps.gate.outputs.run == 'true'
         run: python src/main.py
 
       - name: Probe summary
-        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' }}
+        if: ${{ !cancelled() }}
         run: python src/probe_summary.py
 
       - name: Upload playlist
-        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' }}
+        if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
         with:
           name: playlist
@@ -85,7 +68,7 @@ jobs:
             output/probe_results.json
 
       - name: Commit official LCN table and playlist
-        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' }}
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
