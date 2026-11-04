@@ -62,12 +62,15 @@ def parse_hls_text(text):
 
 
 last_http_status = None
+last_http_diag = {}
 
 
 def http_get(url, headers=None, timeout=10):
     # records the outcome of the last HTTP request in last_http_status
-    global last_http_status
+    # (last_http_diag: solo diagnostica, non influisce su classificazione e ranking)
+    global last_http_status, last_http_diag
     last_http_status = None
+    last_http_diag = {'final_url': url[:300], 'content_type': None, 'first_200_chars': None}
     try:
         r = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
     except requests.exceptions.Timeout:
@@ -76,6 +79,11 @@ def http_get(url, headers=None, timeout=10):
     except requests.exceptions.RequestException:
         last_http_status = 'unreachable'
         return None
+    last_http_diag = {
+        'final_url': r.url[:300],
+        'content_type': (r.headers.get('Content-Type') or '')[:100] or None,
+        'first_200_chars': r.text[:200],
+    }
     if r.status_code == 200:
         last_http_status = 'ok'
         return r
@@ -205,8 +213,10 @@ try:
             codec = None
             ffprobe_status = None
             ffprobe_result = 'no_video'
+            ffprobe_stderr = ''
             try:
-                proc = subprocess.run([FFPROBE,'-v','quiet','-show_streams','-print_format','json',url],capture_output=True,text=True,timeout=TIMEOUT)
+                proc = subprocess.run([FFPROBE,'-v','error','-show_streams','-print_format','json',url],capture_output=True,text=True,timeout=TIMEOUT)
+                ffprobe_stderr = proc.stderr or ''
                 data = json.loads(proc.stdout) if proc.stdout else {}
                 video = next((s for s in data.get('streams',[]) if s.get('codec_type')=='video'), {})
                 width = video.get('width') or 0
@@ -216,10 +226,12 @@ try:
                 ffprobe_result = 'ok' if width * height > 0 else ('no_output' if not proc.stdout else 'no_video')
             except subprocess.TimeoutExpired as ex:
                 item['error'] = str(ex)
+                ffprobe_stderr = str(ex)
                 ffprobe_status = 'timeout'
                 ffprobe_result = 'timeout'
             except Exception as ex:
                 item['error'] = str(ex)
+                ffprobe_stderr = str(ex)
                 ffprobe_status = 'unreachable'
                 ffprobe_result = 'error'
 
@@ -254,6 +266,11 @@ try:
             item['ffprobe_result'] = ffprobe_result
             if http_status is not None:
                 item['http_status'] = http_status
+            if attempted or ffprobe_result != 'ok':
+                item['ffprobe_stderr_short'] = ffprobe_stderr.strip()[:300]
+                if attempted:
+                    item['manifest_detected'] = bool(manifest)
+                    item.update(last_http_diag)
             if manifest:
                 item.pop('error', None)
                 item.update(manifest)
