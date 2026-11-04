@@ -44,8 +44,8 @@ jobs:
         uses: actions/cache@v4
         with:
           path: output/probe_cache.json
-          key: probe-cache-v2-${{ github.run_id }}
-          restore-keys: probe-cache-v2-
+          key: probe-cache-v3-${{ github.run_id }}
+          restore-keys: probe-cache-v3-
 
       - name: Build playlist
         run: python src/main.py
