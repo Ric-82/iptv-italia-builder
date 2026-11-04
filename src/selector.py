@@ -2,6 +2,7 @@ from collections import Counter
 from pathlib import Path
 import difflib
 import json
+import os
 import re
 import unicodedata
 from urllib.parse import urlparse
@@ -286,6 +287,13 @@ def main():
     from cleanup import finalize
     merges = json.loads(MERGES_FILE.read_text(encoding='utf-8')) if MERGES_FILE.exists() else {}
     final, cleanup_report = finalize(final, channels, logo_priority, overrides, merges)
+    quality_report = None
+    if os.environ.get('QUALITY_CHECK', '1') != '0':
+        import quality
+        quality_report = quality.apply_quality(final, set_streams, is_official)
+        (OUTPUT_DIR / 'quality_report.json').write_text(
+            json.dumps(quality_report, indent=2, ensure_ascii=False), encoding='utf-8')
+        print(f"Quality check: {quality_report['summary']}")
     epg_priority = {s['name']: s.get('epg_priority', 99) for s in sources}
     for item in final:
         epg = pick_epg([e for key in item['members'] for e in channels[key]], epg_priority)
@@ -293,6 +301,12 @@ def main():
     epg_urls = []
     if EPG_FILE.exists():
         epg_urls = json.loads(EPG_FILE.read_text(encoding='utf-8')).get('_all', [])
+    if epg_urls and os.environ.get('EPG_CHECK', '1') != '0':
+        import epg_check
+        epg_urls, epg_report = epg_check.filter_reachable(epg_urls)
+        (OUTPUT_DIR / 'epg_report.json').write_text(
+            json.dumps(epg_report, indent=2, ensure_ascii=False), encoding='utf-8')
+        print(f"EPG: {len(epg_urls)} raggiungibili, {len(epg_report['excluded'])} esclusi")
     m3u, m3u_full = render(final, epg_urls)
 
     numbered = [i for i in final if i['lcn'] is not None]
