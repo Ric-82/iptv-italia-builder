@@ -84,7 +84,7 @@ https://boing.akamaized.net/6380673432112/eu-central-1/6284318116001/eyJhbGciOiJ
 #EXTINF:-1 tvg-id="Super.it" tvg-chno="47" tvg-name="Super!" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/47-super.png" group-title="Bambini e ragazzi",Super!
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/manifest_dvr.mpd
 #EXTINF:-1 tvg-id="RaiNews24.it" tvg-chno="48" tvg-name="Rai News 24" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/48-rainews24.png" group-title="Notizie",Rai News 24
-https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7
 #EXTINF:-1 tvg-id="Italia.2.it" tvg-chno="49" tvg-name="Italia 2" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/49-italia2hd.png" group-title="Mediaset",Italia 2
 https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8
 #EXTINF:-1 tvg-id="Sky.TG24.it" tvg-chno="50" tvg-name="Sky TG24" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/50-skytg24.png" group-title="Notizie",Sky TG24
@@ -110,7 +110,7 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 #EXTINF:-1 tvg-id="Sportitalia.it" tvg-chno="60" tvg-name="SportItalia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/60-sportitalia.png" group-title="Sport",SportItalia
 https://sportsitalia-samsungitaly.amagi.tv/playlist1080p.m3u8
 #EXTINF:-1 tvg-id="il61" tvg-chno="61" tvg-name="il61" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/61-il61.png" group-title="Altre tv",il61
-https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
+https://5a1178b42cc03.streamlock.net/travel/travel/chunklist_w2126077193.m3u8
 #EXTINF:-1 tvg-id="SuperTennis.HD.it" tvg-chno="64" tvg-name="Supertennis" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/64-supertennis.png" group-title="Sport",Supertennis
 http://57.128.225.206/stream/7/index.m3u8
 #EXTINF:-1 tvg-id="AlmaTV.it" tvg-chno="65" tvg-name="Alma TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/65-almatv.png" group-title="Altro",Alma TV
@@ -200,7 +200,7 @@ https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_22f84390fe141
 #EXTINF:-1 tvg-id="" tvg-chno="255" tvg-name="Maria Vision" tvg-logo="https://i.imgur.com/fdx5YXi.png" group-title="Italy",Maria Vision
 https://1601580044.rsc.cdn77.org/live/_jcn_/amls:CHANNEL_2/playlist.m3u8
 #EXTINF:-1 tvg-id="Gambero.Rosso.HD.it" tvg-chno="257" tvg-name="Gambero Rosso" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/257-gamberorosso.png" group-title="Nazionali",Gambero Rosso
-https://amg14891-amg14891c3-amgplt0165.playout.now3.amagi.tv/playlist/amg14891-amg14891c3-amgplt0165/playlist.m3u8
+https://cdndirector.dailymotion.com/cdn/live/video/x9us6y4.m3u8?sec=h5bGwJYFZy9AO66NpfTxbhTni9e637DUu_SUPhn3MewWKmiD4Rmw0UuwfufSVb3G
 #EXTINF:-1 tvg-id="RADIOFRECCIA.HD.it" tvg-chno="258" tvg-name="Radio Freccia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/258-radiofreccia.png" group-title="Music",Radio Freccia
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="262" tvg-name="Byoblu" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/byoblu.png" group-title="Altro",Byoblu
@@ -1374,7 +1374,7 @@ http://rtmp.streams.ovh:1935/radionapoliemme/radionapoliemme/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Radio Norba" tvg-logo="https://radionorba.it/wp-content/themes/radionorba/assets/images/logo-radio-norba.png" group-title="Musica",Radio Norba
 https://live02-seg.msr.cdn.mediaset.net/live/ch-u4/u4-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="RadioNumberOne.it" tvg-chno="" tvg-name="Radio Number ONE" tvg-logo="https://i.imgur.com/8cpuaG5.png" group-title="Musica",Radio Number ONE
-https://56b50ada2d659.streamlock.net/RN1TV/livestream/chunklist_w1133430333.m3u8
+https://56b50ada2d659.streamlock.net/RN1TV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Radio Number One TV" tvg-logo="https://hostux.pics/images/2026/09/11/14_radio_number_one_tv7003522663a1b412.png" group-title="Italy",Radio Number One TV
 https://56b50ada2d659.streamlock.net/RN1TV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Radio OneDance" tvg-logo="" group-title="Radio",Radio OneDance
