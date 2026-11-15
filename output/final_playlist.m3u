@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://iptv-epg.org/files/epg-it.xml.gz,http://epg-guide.com/wltv.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://iptv-epg.org/files/epg-it.xml.gz,http://epg-guide.com/wltv.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 #EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-chno="1" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",Rai 1
-https://d3k8wzt41aflvx.cloudfront.net/RAI1/Live.m3u8
+http://team-tv.co:81/rai1/index.m3u8
 #EXTINF:-1 tvg-id="Rai.2.HD..102.it" tvg-chno="2" tvg-name="Rai 2" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/2-rai2.png" group-title="Rai",Rai 2
 https://d3k8wzt41aflvx.cloudfront.net/RAI2/Live.m3u8
 #EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-chno="3" tvg-name="Rai 3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",Rai 3
@@ -10,7 +10,7 @@ http://185.227.34.62/stream/14/index.m3u8
 #EXTINF:-1 tvg-id="Canale.5.it" tvg-chno="5" tvg-name="Canale 5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/5-canale5hd.png" group-title="Mediaset",Canale 5
 https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="Italia.1.it" tvg-chno="6" tvg-name="Italia 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/6-italia1hd.png" group-title="Mediaset",Italia 1
-https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8
+http://185.227.34.62/stream/21/index.m3u8
 #EXTINF:-1 tvg-id="LA7.HD.it" tvg-chno="7" tvg-name="La7" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/7-la7hd.png" group-title="Altro",La7
 https://d3k8wzt41aflvx.cloudfront.net/LA7HD/Live.m3u8
 #EXTINF:-1 tvg-id="TV8.HD.it" tvg-chno="8" tvg-name="TV8" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/8-tv8hd.png" group-title="Sky",TV8
@@ -52,7 +52,7 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="Real.Time.it" tvg-chno="31" tvg-name="Real Time" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/31-realtimehd.png" group-title="Warner Bros",Real Time
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="QVC.it" tvg-chno="32" tvg-name="QVC" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/32-qvc.png" group-title="Altro",QVC
-https://qrg.akamaized.net/hls/live/2017383/lsqvc1itcln/master.m3u8
+https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 #EXTINF:-1 tvg-id="Food.Network.it" tvg-chno="33" tvg-name="Food Network" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/33-foodnetworkhd.png" group-title="Warner Bros",Food Network
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="Cine34.it" tvg-chno="34" tvg-name="Cine34" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/34-cine34hd.png" group-title="Mediaset",Cine34
@@ -104,11 +104,11 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 #EXTINF:-1 tvg-id="Rai.Scuola..5057.it" tvg-chno="57" tvg-name="Rai Scuola" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/57-raiscuolahd.png" group-title="Rai",Rai Scuola
 https://d3k8wzt41aflvx.cloudfront.net/RAIScuola/Live.m3u8
 #EXTINF:-1 tvg-id="RAI.Sport...227.it" tvg-chno="58" tvg-name="Rai Sport" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/58-raisport.png" group-title="Rai",Rai Sport
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
+http://sultanios.alwaysdata.net/vavo.php?ID=843891896
 #EXTINF:-1 tvg-id="Motor.Trend.it" tvg-chno="59" tvg-name="Motor Trend" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/59-discoveryturbo.png" group-title="Discovery",Motor Trend
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="Sportitalia.it" tvg-chno="60" tvg-name="SportItalia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/60-sportitalia.png" group-title="Sport",SportItalia
-https://distribution.sportitalialive.it/sportitalia/sihd_abr2/playlist.m3u8
+https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="il61" tvg-chno="61" tvg-name="il61" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/61-il61.png" group-title="Altre tv",il61
 https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperTennis.HD.it" tvg-chno="64" tvg-name="Supertennis" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/64-supertennis.png" group-title="Sport",Supertennis
@@ -445,6 +445,8 @@ https://e96a7526.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://86ebec83.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ1RWUGx1c19ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Bondi Rescue" tvg-logo="https://provider-static.plex.tv/epg/cms/production/91ffbeaa-df66-4074-83d6-94cacb9622fa/Plex_Totem_BondiRescue_Logo_White_-_Rowan_Williams.png" group-title="Reality",Bondi Rescue
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-69ae4f38e657bab5f7a9b7ec.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
+#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang
+http://sultanios.alwaysdata.net/vavo.php?ID=2705627802
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Bowling TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/573ed04e-775e-41c9-a367-81b9597eff00/Channel_Logo_Color_Evann_D___AdamoRDX_WHT_LETTERS.png" group-title="Sports",Bowling TV
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-6970fdabbde579fb71262401.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Brat TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/9d75cf3b-be95-4785-ab5a-3cfdd4994ab7/BratTV_PlexTV_Logo_DarkBG.png" group-title="Kids & Family",Brat TV
@@ -721,6 +723,10 @@ https://www.youtube.com/user/euronewsit/live
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-6245f13093b402a3d1097789.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Euronews Portuguese" tvg-logo="https://provider-static.plex.tv/epg/cms/production/76a8ddca-38be-4d5b-b8db-be69fcaa6231/Plex-WURL_Euronews-Logos_PT_-_astrid_collomb.png" group-title="News",Euronews Portuguese
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-6245cd154f27f4e9c76d67e9.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
+#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Eurosport 1 Italy" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="Sports",Eurosport 1 Italy
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_it/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Eurosport 2 Italy" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="Sports",Eurosport 2 Italy
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_it/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Éxitos del Momento" tvg-logo="https://provider-static.plex.tv/epg/cms/production/db81c10a-93cb-4966-ae48-5e3f0f741110/Exitos_Del_momento.png" group-title="Music",Éxitos del Momento
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-62efba6588a16bb7d6b6fb58.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="extra tv" tvg-chno="" tvg-name="Extra Tv" tvg-logo="https://i.imgur.com/KCBurST.png" group-title="Regionali",Extra Tv
@@ -922,13 +928,13 @@ https://5f11919dca3bd.streamlock.net/italia7/italia7/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Italia 8 Prestige" tvg-logo="https://i.imgur.com/uDxWI4a.png" group-title="Italy",Italia 8 Prestige
 https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Italian Fishing TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/407-italianfishingtv.png" group-title="Sport",Italian Fishing TV
-https://d2n1ucuifwse4q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5nki8b8udz6dm/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=0&ads.app_domain=0&ads.app_name=0&ads.consent=0&ads.ssai_vendor=SSSLIVE
+https://fms.premio.link/fishingtv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Italiana HbbTV raiway" tvg-logo="" group-title="Rai",Italiana HbbTV raiway
 https://raiscuola1-push.cdn.netrw.it/rai/dash/live/raiscuola/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="ITV Deportes" tvg-logo="https://provider-static.plex.tv/epg/cms/production/a158aa7c-26b6-4c00-af9d-6fe52cab555a/iTV_LOGO-DarkBG_-_Alejandro_N.png" group-title="En Español",ITV Deportes
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-688d3402a6fe30698ab42007.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="iuniortv" tvg-chno="" tvg-name="Iunior TV" tvg-logo="https://i.imgur.com/FBOJnfT.png" group-title="Bambini e ragazzi",Iunior TV
-https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8
+https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="JAIL" tvg-logo="https://provider-static.plex.tv/epg/cms/production/08872b9b-a4a7-4533-a19b-d2c24a7bf2f1/JAIL_-_channel_logo_-_light_-_dark_-_1500x1000.png_James_Roebuck.png" group-title="True Crime",JAIL
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-6448ba1baf92c31f4a190c27.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Johnny Carson TV" tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/johnnycarsontv_logo_dark.png" group-title="Classics",Johnny Carson TV
@@ -1629,7 +1635,7 @@ https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-639b8d803f46
 https://2bbff49a727b4b1fad4b7928ca7bb0ed.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_SoapLatino/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Soap Turco" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/bb446d9d-6ff4-447c-a7e7-a3793b090756.jpeg" group-title="RAKUTEN - Programmi TV",Soap Turco
 https://f3fabe7fdead448fa4d41b06c2f56a82.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_SoapTurco/playlist.m3u8
-#EXTINF:-1 tvg-id="ITBC4700002CO" tvg-chno="" tvg-name="Solocalcio" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC4700002CO_20230412T042559SQUARE.png_20230412042559.png" group-title="Sport",Solocalcio
+#EXTINF:-1 tvg-id="Solocalcio.it.it" tvg-chno="" tvg-name="Solocalcio" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/405-sisolocalciohd.png" group-title="Sport",Solocalcio
 https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sonic TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/14362d39-32e6-41c8-894d-2401013362ff/Adventures_of_Sonic_the_Hedgehog_channel_logo_dark_-_Dana_Foster.png" group-title="Kids & Family",Sonic TV
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-62ba4aaff663580a7238f327.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
@@ -1665,8 +1671,6 @@ https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8
 https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sportitalia Plus" tvg-logo="https://i.imgur.com/hu56Ya5.png" group-title="DTV",Sportitalia Plus
 https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Solocalcio.it.it" tvg-chno="" tvg-name="Sportitalia Solocalcio" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/405-sisolocalciohd.png" group-title="Sports",Sportitalia Solocalcio
-https://origin-001.streamup.eu/sportitalia/sisolocalcio_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="SportOutdoor.tv" tvg-logo="" group-title="Sport",SportOutdoor.tv
 https://gto2000-sportoutdoortv-1-eu.rlaxxtv.wurl.tv/4300.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sports Illustrated TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/61e78adf-40b3-4a6f-9d75-6c9db47248de/SITV_LOGO_PRIMARY_1500X1000.png" group-title="Sports",Sports Illustrated TV
