@@ -1,10 +1,10 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://iptv-epg.org/files/epg-it.xml.gz,http://epg-guide.com/wltv.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://iptv-epg.org/files/epg-it.xml.gz,http://epg-guide.com/wltv.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-chno="1" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",Rai 1 [LiveTVCollector]
-http://team-tv.co:81/rai1/index.m3u8
 #EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-chno="1" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",Rai 1 [FreeTV]
 https://d3k8wzt41aflvx.cloudfront.net/RAI1/Live.m3u8
 #EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-chno="1" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",Rai 1 [TOPTiVU]
 https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8
+#EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-chno="1" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",Rai 1 [LiveTVCollector]
+http://team-tv.co:81/rai1/index.m3u8
 #EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-chno="1" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",Rai 1 [DavideFulgione]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-chno="1" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",Rai 1 [TOPTiVU]
@@ -685,12 +685,12 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/pl
 https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-chno="262" tvg-name="Byoblu" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/byoblu.png" group-title="Altro",Byoblu [FreeTV]
 https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/playlist.m3u8
+#EXTINF:-1 tvg-id="RDSSocialTV.it" tvg-chno="265" tvg-name="RDS Social TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/265-rdssocialtv.png" group-title="Musica",RDS Social TV [LiveTVCollector]
+https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8
 #EXTINF:-1 tvg-id="RDSSocialTV.it" tvg-chno="265" tvg-name="RDS Social TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/265-rdssocialtv.png" group-title="Musica",RDS Social TV [TOPTiVU]
 https://stream.rdstv.radio/index_9.m3u8
 #EXTINF:-1 tvg-id="RDSSocialTV.it" tvg-chno="265" tvg-name="RDS Social TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/265-rdssocialtv.png" group-title="Musica",RDS Social TV [OpenIPTVItaly]
 https://stream.rdstv.radio/index.m3u8
-#EXTINF:-1 tvg-id="RDSSocialTV.it" tvg-chno="265" tvg-name="RDS Social TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/265-rdssocialtv.png" group-title="Musica",RDS Social TV [LiveTVCollector]
-https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8
 #EXTINF:-1 tvg-id="RadioZetaTV.it" tvg-chno="266" tvg-name="Radio Zeta TV" tvg-logo="https://i.imgur.com/0MgCm1n.png" group-title="Musica",Radio Zeta TV [TOPTiVU]
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
 #EXTINF:-1 tvg-id="RadioZetaTV.it" tvg-chno="266" tvg-name="Radio Zeta TV" tvg-logo="https://i.imgur.com/0MgCm1n.png" group-title="Musica",Radio Zeta TV [FreeTV]
@@ -1651,10 +1651,10 @@ https://fms.premio.link/fishingtv/tracks-v2a1/mono.m3u8
 https://raiscuola1-push.cdn.netrw.it/rai/dash/live/raiscuola/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="ITV Deportes" tvg-logo="https://provider-static.plex.tv/epg/cms/production/a158aa7c-26b6-4c00-af9d-6fe52cab555a/iTV_LOGO-DarkBG_-_Alejandro_N.png" group-title="En Español",ITV Deportes [LiveTVCollector]
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-688d3402a6fe30698ab42007.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
-#EXTINF:-1 tvg-id="iuniortv" tvg-chno="" tvg-name="Iunior TV" tvg-logo="https://i.imgur.com/FBOJnfT.png" group-title="Bambini e ragazzi",Iunior TV [LiveTVCollector]
-https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8
 #EXTINF:-1 tvg-id="iuniortv" tvg-chno="" tvg-name="Iunior TV" tvg-logo="https://i.imgur.com/FBOJnfT.png" group-title="Bambini e ragazzi",Iunior TV [TOPTiVU]
 https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8
+#EXTINF:-1 tvg-id="iuniortv" tvg-chno="" tvg-name="Iunior TV" tvg-logo="https://i.imgur.com/FBOJnfT.png" group-title="Bambini e ragazzi",Iunior TV [LiveTVCollector]
+https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="JAIL" tvg-logo="https://provider-static.plex.tv/epg/cms/production/08872b9b-a4a7-4533-a19b-d2c24a7bf2f1/JAIL_-_channel_logo_-_light_-_dark_-_1500x1000.png_James_Roebuck.png" group-title="True Crime",JAIL [LiveTVCollector]
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-6448ba1baf92c31f4a190c27.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Johnny Carson TV" tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/johnnycarsontv_logo_dark.png" group-title="Classics",Johnny Carson TV [LiveTVCollector]
@@ -2675,10 +2675,10 @@ https://streamcdng1-421b2081187a40368f24e4fb496bfc26.msvdn.net/channel3/manifest
 https://streamcdng1-421b2081187a40368f24e4fb496bfc26.msvdn.net/channel4/manifest.mpd
 #EXTINF:-1 tvg-id="SupertoonsTV.it" tvg-chno="" tvg-name="SuperToons TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD51000010V_20250729T045549SQUARE.png" group-title="Bambini e ragazzi",SuperToons TV [TOPTiVU]
 https://d1b18rn1fy7w7s.cloudfront.net/feed/samsung/streams/SUPERTOONS_IT/master.m3u8?token=737aa2c3f17862a448f403cd2ac2b5ef1a0c413e1cf080a13a19cea99119221f
-#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Supertv" tvg-logo="https://i.imgur.com/hxF3yhw.png" group-title="General;Series",Supertv [FreeTV]
-http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Supertv" tvg-logo="https://i.imgur.com/hxF3yhw.png" group-title="General;Series",Supertv [LiveTVCollector]
 http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Supertv" tvg-logo="https://i.imgur.com/hxF3yhw.png" group-title="General;Series",Supertv [FreeTV]
+http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Surf Cinema" tvg-logo="https://provider-static.plex.tv/epg/cms/production/a244db09-7052-4237-ab42-58bcb2b56fe1/SurfCinemaStacked-DarkBackground-1500x1000y.png" group-title="Sports",Surf Cinema [LiveTVCollector]
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-656fbbd6dbcce28c3a41741b.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="t2 tennis" tvg-chno="" tvg-name="T2 Tennis Channel" tvg-logo="https://images.tennis.com/image/private/t_16-9_768/f_png/tenniscom-prd/ikebrhr6qoaxbzfyxvct.png" group-title="Sport",T2 Tennis Channel [TOPTiVU]
@@ -2745,10 +2745,10 @@ http://59d7d6f47d7fc.streamlock.net/telejonio/telejonio/playlist.m3u8
 https://rst2.saiuzwebnetwork.it:8081/laccoamenotv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Tele Laser" tvg-logo="https://hostux.pics/images/2026/09/11/26_tele_lasera82328430bd5c30c.png" group-title="Italy",Tele Laser [FreeTV]
 https://585b674743bbb.streamlock.net/9022/9022/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Tele Liguria Sud" tvg-logo="https://i.imgur.com/OxgSGUW.png" group-title="Undefined",Tele Liguria Sud [FreeTV]
-https://64b16f23efbee.streamlock.net/teleliguriasud/teleliguriasud/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Tele Liguria Sud" tvg-logo="https://i.imgur.com/OxgSGUW.png" group-title="Undefined",Tele Liguria Sud [LiveTVCollector]
 https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Tele Liguria Sud" tvg-logo="https://i.imgur.com/OxgSGUW.png" group-title="Undefined",Tele Liguria Sud [FreeTV]
+https://64b16f23efbee.streamlock.net/teleliguriasud/teleliguriasud/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Tele Mia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a6/Telemia.png" group-title="Undefined",Tele Mia [FreeTV]
 https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Tele Mia Extra" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a6/Telemia.png" group-title="Undefined",Tele Mia Extra [FreeTV]
@@ -3321,10 +3321,10 @@ https://ed04.top-ix.org/avtvlive/videonovara/streaming/playlist.m3u8
 https://rst2.saiuzwebnetwork.it:8081/vtccarnia/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Vintage TV" tvg-logo="https://www.adnplay.it/wp-content/uploads/2026/01/72dd9127-105d-475a-b561-99eb346ef301-1.png" group-title="Altre tv",Vintage TV [TOPTiVU]
 https://64b16f23efbee.streamlock.net/hit24tv/hit24tv/playlist.m3u8
-#EXTINF:-1 tvg-id="VirginRadioTV.it" tvg-chno="" tvg-name="Virgin Radio TV" tvg-logo="https://i.imgur.com/7Im3HI1.png" group-title="Musica",Virgin Radio TV [TOPTiVU]
-https://live02-col.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="VirginRadioTV.it" tvg-chno="" tvg-name="Virgin Radio TV" tvg-logo="https://i.imgur.com/7Im3HI1.png" group-title="Musica",Virgin Radio TV [FreeTV]
 https://live02-seg.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="VirginRadioTV.it" tvg-chno="" tvg-name="Virgin Radio TV" tvg-logo="https://i.imgur.com/7Im3HI1.png" group-title="Musica",Virgin Radio TV [TOPTiVU]
+https://live02-col.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Visual Radio" tvg-logo="https://i.imgur.com/ah14ah0.png" group-title="Undefined",Visual Radio [LiveTVCollector]
 http://wms.shared.streamshow.it:1935/visualradio/visualradio/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Vita da Strega" tvg-logo="https://provider-static.plex.tv/epg/cms/production/6d2596e4-31e2-422b-bb61-dc27db436b39/IT_FAST_Plex_Bewitched_logo_dark.png" group-title="Serie",Vita da Strega [TOPTiVU]
