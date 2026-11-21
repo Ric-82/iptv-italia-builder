@@ -22,11 +22,11 @@ https://raiuno3-live.akamaized.net/hls/live/2017910/raiuno3/raiuno3/playlist.m3u
 #EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-chno="1" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",Rai 1 [IPTVItalia]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-chno="1" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",Rai 1 [LiveTVCollector]
-http://team-tv.co:81/rai1/index.m3u8
-#EXTINF:-1 tvg-id="Rai.1.HD..101.it" tvg-chno="1" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",Rai 1 [LiveTVCollector]
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=16
 #EXTINF:-1 tvg-id="Rai.2.HD..102.it" tvg-chno="2" tvg-name="Rai 2" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/2-rai2.png" group-title="Rai",Rai 2 [FreeTV]
 https://d3k8wzt41aflvx.cloudfront.net/RAI2/Live.m3u8
+#EXTINF:-1 tvg-id="Rai.2.HD..102.it" tvg-chno="2" tvg-name="Rai 2" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/2-rai2.png" group-title="Rai",Rai 2 [LiveTVCollector]
+http://team-tv.co:81/rai2/index.m3u8
 #EXTINF:-1 tvg-id="Rai.2.HD..102.it" tvg-chno="2" tvg-name="Rai 2" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/2-rai2.png" group-title="Rai",Rai 2 [TOPTiVU]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7
 #EXTINF:-1 tvg-id="Rai.2.HD..102.it" tvg-chno="2" tvg-name="Rai 2" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/2-rai2.png" group-title="Rai",Rai 2 [TOPTiVU]
@@ -40,15 +40,13 @@ https://raidue2-dash-live.akamaized.net/dash/live/662736/raidue2/manifest.mpd
 #EXTINF:-1 tvg-id="Rai.2.HD..102.it" tvg-chno="2" tvg-name="Rai 2" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/2-rai2.png" group-title="Rai",Rai 2 [FreeTV]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:-1 tvg-id="Rai.2.HD..102.it" tvg-chno="2" tvg-name="Rai 2" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/2-rai2.png" group-title="Rai",Rai 2 [LiveTVCollector]
-http://team-tv.co:81/rai2/index.m3u8
-#EXTINF:-1 tvg-id="Rai.2.HD..102.it" tvg-chno="2" tvg-name="Rai 2" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/2-rai2.png" group-title="Rai",Rai 2 [LiveTVCollector]
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=16
 #EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-chno="3" tvg-name="Rai 3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",Rai 3 [FreeTV]
 https://d3k8wzt41aflvx.cloudfront.net/RAI3/Live.m3u8
 #EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-chno="3" tvg-name="Rai 3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",Rai 3 [TOPTiVU]
 https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-chno="3" tvg-name="Rai 3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",Rai 3 [IPTVItalia]
-https://tgrsicilia-dash-live.akamaized.net/dash/live/2025611/tgrsicilia/manifest.mpd
+#EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-chno="3" tvg-name="Rai 3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",Rai 3 [LiveTVCollector]
+http://team-tv.co:81/rai3/index.m3u8
 #EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-chno="3" tvg-name="Rai 3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",Rai 3 [TOPTiVU]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7
 #EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-chno="3" tvg-name="Rai 3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",Rai 3 [TOPTiVU]
@@ -61,8 +59,6 @@ https://raisportdue3-live.akamaized.net/hls/live/2018009/raisportdue3/raisportdu
 https://raitre3-live.akamaized.net/hls/live/2018002/raitre3/raitre3/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-chno="3" tvg-name="Rai 3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",Rai 3 [IPTVItalia]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-chno="3" tvg-name="Rai 3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",Rai 3 [LiveTVCollector]
-http://team-tv.co:81/rai3/index.m3u8
 #EXTINF:-1 tvg-id="Rai.3.HD..103.it" tvg-chno="3" tvg-name="Rai 3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",Rai 3 [LiveTVCollector]
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=16
 #EXTINF:-1 tvg-id="Rete.4.it" tvg-chno="4" tvg-name="Rete 4" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/4-rete4hd.png" group-title="Mediaset",Rete 4 [LiveTVCollector]
@@ -128,9 +124,9 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?h
 #EXTINF:-1 tvg-id="Nove.it" tvg-chno="9" tvg-name="Nove" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/9-novehd.png" group-title="Discovery",Nove [TOPTiVU]
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="Nove.it" tvg-chno="9" tvg-name="Nove" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/9-novehd.png" group-title="Discovery",Nove [LiveTVCollector]
-https://amg16146-wbdi-amg16146c1-samsung-it-1831.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="Nove.it" tvg-chno="9" tvg-name="Nove" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/9-novehd.png" group-title="Discovery",Nove [LiveTVCollector]
 https://jmp2.uk/stvp-IT9000060Q
+#EXTINF:-1 tvg-id="Nove.it" tvg-chno="9" tvg-name="Nove" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/9-novehd.png" group-title="Discovery",Nove [LiveTVCollector]
+https://amg16146-wbdi-amg16146c1-samsung-it-1831.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="Nove.it" tvg-chno="9" tvg-name="Nove" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/9-novehd.png" group-title="Discovery",Nove [TOPTiVU]
 https://pb-o0zu14lv7kvp9.akamaized.net/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="10" tvg-name="Antenna Sicilia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Antennasicilia.png" group-title="Sicilia",Antenna Sicilia [IPTVItalia]
@@ -163,6 +159,8 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd
 https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="20.it" tvg-chno="20" tvg-name="Mediaset 20" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/20-20hd.png" group-title="Mediaset",Mediaset 20 [LiveTVCollector]
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(lb)/index.m3u8
+#EXTINF:-1 tvg-id="Rai.4..5021.it" tvg-chno="21" tvg-name="Rai 4" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/21-rai4.png" group-title="Rai",Rai 4 [LiveTVCollector]
+http://team-tv.co:81/rai4/index.m3u8
 #EXTINF:-1 tvg-id="Rai.4..5021.it" tvg-chno="21" tvg-name="Rai 4" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/21-rai4.png" group-title="Rai",Rai 4 [TOPTiVU]
 https://raiquattro1-dash-live.akamaized.net/dash/live/663977/raiquattro1/manifest.mpd
 #EXTINF:-1 tvg-id="Rai.4..5021.it" tvg-chno="21" tvg-name="Rai 4" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/21-rai4.png" group-title="Rai",Rai 4 [TOPTiVU]
@@ -176,8 +174,6 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forc
 #EXTINF:-1 tvg-id="Rai.4..5021.it" tvg-chno="21" tvg-name="Rai 4" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/21-rai4.png" group-title="Rai",Rai 4 [LiveTVCollector]
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=746966
 #EXTINF:-1 tvg-id="Rai.4..5021.it" tvg-chno="21" tvg-name="Rai 4" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/21-rai4.png" group-title="Rai",Rai 4 [LiveTVCollector]
-http://team-tv.co:81/rai4/index.m3u8
-#EXTINF:-1 tvg-id="Rai.4..5021.it" tvg-chno="21" tvg-name="Rai 4" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/21-rai4.png" group-title="Rai",Rai 4 [LiveTVCollector]
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=16
 #EXTINF:-1 tvg-id="Iris.it" tvg-chno="22" tvg-name="Iris" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/22-irishd.png" group-title="Mediaset",Iris [TOPTiVU]
 https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest_hd.mpd
@@ -189,6 +185,8 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="Iris.it" tvg-chno="22" tvg-name="Iris" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/22-irishd.png" group-title="Mediaset",Iris [LiveTVCollector]
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ki)/index.m3u8
+#EXTINF:-1 tvg-id="Rai.5..5023.it" tvg-chno="23" tvg-name="Rai 5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/23-rai5.png" group-title="Rai",Rai 5 [LiveTVCollector]
+http://team-tv.co:81/rai5/index.m3u8
 #EXTINF:-1 tvg-id="Rai.5..5023.it" tvg-chno="23" tvg-name="Rai 5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/23-rai5.png" group-title="Rai",Rai 5 [TOPTiVU]
 https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.mpd
 #EXTINF:-1 tvg-id="Rai.5..5023.it" tvg-chno="23" tvg-name="Rai 5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/23-rai5.png" group-title="Rai",Rai 5 [IPTVItalia]
@@ -196,21 +194,19 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forc
 #EXTINF:-1 tvg-id="Rai.5..5023.it" tvg-chno="23" tvg-name="Rai 5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/23-rai5.png" group-title="Rai",Rai 5 [FreeTV]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:-1 tvg-id="Rai.5..5023.it" tvg-chno="23" tvg-name="Rai 5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/23-rai5.png" group-title="Rai",Rai 5 [LiveTVCollector]
-http://team-tv.co:81/rai5/index.m3u8
-#EXTINF:-1 tvg-id="Rai.5..5023.it" tvg-chno="23" tvg-name="Rai 5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/23-rai5.png" group-title="Rai",Rai 5 [LiveTVCollector]
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=16
 #EXTINF:-1 tvg-id="Rai.5..5023.it" tvg-chno="23" tvg-name="Rai 5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/23-rai5.png" group-title="Rai",Rai 5 [TOPTiVU]
 https://raicinque1-push.cdn.netrw.it/rai/dash/live/rai5/manifest.mpd
 #EXTINF:-1 tvg-id="Rai.5..5023.it" tvg-chno="23" tvg-name="Rai 5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/23-rai5.png" group-title="Rai",Rai 5 [OpenIPTVItaly]
 http://raicinque3-live.akamaized.net/hls/live/2018007/raicinque3/raicinque3/playlist.m3u8
+#EXTINF:-1 tvg-id="Rai.Movie..5024.it" tvg-chno="24" tvg-name="Rai Movie" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/24-raimovie.png" group-title="Rai",Rai Movie [LiveTVCollector]
+http://team-tv.co:81/raimovie/index.m3u8
 #EXTINF:-1 tvg-id="Rai.Movie..5024.it" tvg-chno="24" tvg-name="Rai Movie" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/24-raimovie.png" group-title="Rai",Rai Movie [TOPTiVU]
 https://raimovie1-dash-live.akamaized.net/dash/live/663983/raimovie1/manifest.mpd
 #EXTINF:-1 tvg-id="Rai.Movie..5024.it" tvg-chno="24" tvg-name="Rai Movie" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/24-raimovie.png" group-title="Rai",Rai Movie [IPTVItalia]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-id="Rai.Movie..5024.it" tvg-chno="24" tvg-name="Rai Movie" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/24-raimovie.png" group-title="Rai",Rai Movie [FreeTV]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 tvg-id="Rai.Movie..5024.it" tvg-chno="24" tvg-name="Rai Movie" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/24-raimovie.png" group-title="Rai",Rai Movie [LiveTVCollector]
-http://team-tv.co:81/raimovie/index.m3u8
 #EXTINF:-1 tvg-id="Rai.Movie..5024.it" tvg-chno="24" tvg-name="Rai Movie" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/24-raimovie.png" group-title="Rai",Rai Movie [LiveTVCollector]
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=16
 #EXTINF:-1 tvg-id="Rai.Movie..5024.it" tvg-chno="24" tvg-name="Rai Movie" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/24-raimovie.png" group-title="Rai",Rai Movie [TOPTiVU]
@@ -247,10 +243,10 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 #EXTINF:-1 tvg-id="LA7.CINEMA.it" tvg-chno="29" tvg-name="La7 cinema" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/29-la7cinema.png" group-title="DTV",La7 cinema [OpenIPTVItaly]
 http://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7D/DASH/Live.mpd
-#EXTINF:-1 tvg-id="LA7.CINEMA.it" tvg-chno="29" tvg-name="La7 cinema" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/29-la7cinema.png" group-title="DTV",La7 cinema [FreeTV]
-https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:-1 tvg-id="LA7.CINEMA.it" tvg-chno="29" tvg-name="La7 cinema" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/29-la7cinema.png" group-title="DTV",La7 cinema [LiveTVCollector]
 http://102.129.186.182:81/la7d/index.m3u8
+#EXTINF:-1 tvg-id="LA7.CINEMA.it" tvg-chno="29" tvg-name="La7 cinema" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/29-la7cinema.png" group-title="DTV",La7 cinema [FreeTV]
+https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:-1 tvg-id="La.5.it" tvg-chno="30" tvg-name="La5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/30-la5hd.png" group-title="Mediaset",La5 [TOPTiVU]
 https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest_hd.mpd
 #EXTINF:-1 tvg-id="La.5.it" tvg-chno="30" tvg-name="La5" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/30-la5hd.png" group-title="Mediaset",La5 [TOPTiVU]
@@ -266,15 +262,15 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 #EXTINF:-1 tvg-id="Real.Time.it" tvg-chno="31" tvg-name="Real Time" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/31-realtimehd.png" group-title="Discovery",Real Time [LiveTVCollector]
 http://102.129.186.182:81/realtime/index.m3u8
 #EXTINF:-1 tvg-id="Real.Time.it" tvg-chno="31" tvg-name="Real Time" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/31-realtimehd.png" group-title="Discovery",Real Time [LiveTVCollector]
-https://amg16146-wbdi-amg16146c2-samsung-it-1835.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="Real.Time.it" tvg-chno="31" tvg-name="Real Time" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/31-realtimehd.png" group-title="Discovery",Real Time [LiveTVCollector]
 https://jmp2.uk/stvp-IT900007I0
+#EXTINF:-1 tvg-id="Real.Time.it" tvg-chno="31" tvg-name="Real Time" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/31-realtimehd.png" group-title="Discovery",Real Time [LiveTVCollector]
+https://amg16146-wbdi-amg16146c2-samsung-it-1835.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="Real.Time.it" tvg-chno="31" tvg-name="Real Time" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/31-realtimehd.png" group-title="Discovery",Real Time [TOPTiVU]
 https://pb-96zvdrcpxomf6.akamaized.net/index.m3u8
-#EXTINF:-1 tvg-id="QVC.it" tvg-chno="32" tvg-name="QVC" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/32-qvc.png" group-title="Altro",QVC [OpenIPTVItaly]
-https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 #EXTINF:-1 tvg-id="QVC.it" tvg-chno="32" tvg-name="QVC" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/32-qvc.png" group-title="Altro",QVC [TOPTiVU]
 https://qrg.akamaized.net/hls/live/2017383/lsqvc1itcln/master.m3u8
+#EXTINF:-1 tvg-id="QVC.it" tvg-chno="32" tvg-name="QVC" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/32-qvc.png" group-title="Altro",QVC [OpenIPTVItaly]
+https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 #EXTINF:-1 tvg-id="Food.Network.it" tvg-chno="33" tvg-name="Food Network" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/33-foodnetworkhd.png" group-title="Discovery",Food Network [TOPTiVU]
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="Food.Network.it" tvg-chno="33" tvg-name="Food Network" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/33-foodnetworkhd.png" group-title="Discovery",Food Network [LiveTVCollector]
@@ -430,9 +426,9 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
 #EXTINF:-1 tvg-id="DMAX.it" tvg-chno="52" tvg-name="DMAX" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/52-dmaxhd.png" group-title="Discovery",DMAX [TOPTiVU]
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DMAX/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="DMAX.it" tvg-chno="52" tvg-name="DMAX" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/52-dmaxhd.png" group-title="Discovery",DMAX [LiveTVCollector]
-https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
-#EXTINF:-1 tvg-id="DMAX.it" tvg-chno="52" tvg-name="DMAX" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/52-dmaxhd.png" group-title="Discovery",DMAX [LiveTVCollector]
 http://102.129.186.182:81/dmax/index.m3u8
+#EXTINF:-1 tvg-id="DMAX.it" tvg-chno="52" tvg-name="DMAX" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/52-dmaxhd.png" group-title="Discovery",DMAX [LiveTVCollector]
+https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
 #EXTINF:-1 tvg-id="DMAX.it" tvg-chno="52" tvg-name="DMAX" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/52-dmaxhd.png" group-title="Discovery",DMAX [LiveTVCollector]
 https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="DMAX.it" tvg-chno="52" tvg-name="DMAX" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/52-dmaxhd.png" group-title="Discovery",DMAX [TOPTiVU]
@@ -441,14 +437,14 @@ https://pb-lkmzny7qo98vp.akamaized.net/index.m3u8
 https://liveac115b.b-cdn.net/canale3.smil/chunklist_b1100000.m3u8
 #EXTINF:-1 tvg-id="Rai.Storia..5054.it" tvg-chno="54" tvg-name="Rai Storia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/54-raistoriahd.png" group-title="Rai",Rai Storia [FreeTV]
 https://d3k8wzt41aflvx.cloudfront.net/RAIStoria/Live.m3u8
+#EXTINF:-1 tvg-id="Rai.Storia..5054.it" tvg-chno="54" tvg-name="Rai Storia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/54-raistoriahd.png" group-title="Rai",Rai Storia [LiveTVCollector]
+http://team-tv.co:81/raistoria/index.m3u8
 #EXTINF:-1 tvg-id="Rai.Storia..5054.it" tvg-chno="54" tvg-name="Rai Storia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/54-raistoriahd.png" group-title="Rai",Rai Storia [TOPTiVU]
 https://raistoria1-dash-live.akamaized.net/dash/live/663959/raistoria1/manifest.mpd
 #EXTINF:-1 tvg-id="Rai.Storia..5054.it" tvg-chno="54" tvg-name="Rai Storia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/54-raistoriahd.png" group-title="Rai",Rai Storia [IPTVItalia]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-id="Rai.Storia..5054.it" tvg-chno="54" tvg-name="Rai Storia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/54-raistoriahd.png" group-title="Rai",Rai Storia [FreeTV]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 tvg-id="Rai.Storia..5054.it" tvg-chno="54" tvg-name="Rai Storia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/54-raistoriahd.png" group-title="Rai",Rai Storia [LiveTVCollector]
-http://team-tv.co:81/raistoria/index.m3u8
 #EXTINF:-1 tvg-id="Rai.Storia..5054.it" tvg-chno="54" tvg-name="Rai Storia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/54-raistoriahd.png" group-title="Rai",Rai Storia [LiveTVCollector]
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=16
 #EXTINF:-1 tvg-id="Rai.Storia..5054.it" tvg-chno="54" tvg-name="Rai Storia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/54-raistoriahd.png" group-title="Rai",Rai Storia [TOPTiVU]
@@ -627,10 +623,10 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/pl
 https://d1slhcsj9uuxpl.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="234" tvg-name="Cusano News 7" tvg-logo="https://i.imgur.com/L49Ie1Q.png" group-title="Italy",Cusano News 7 [FreeTV]
 https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="manga" tvg-chno="236" tvg-name="MAN-GA" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/236-manga.png" group-title="Bambini e ragazzi",MAN-GA [OpenIPTVItaly]
-https://streamcdnr9-c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/manifest.mpd
 #EXTINF:-1 tvg-id="manga" tvg-chno="236" tvg-name="MAN-GA" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/236-manga.png" group-title="Bambini e ragazzi",MAN-GA [IPTVItalia]
 https://vdnwndmsc2-c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/manifest.mpd
+#EXTINF:-1 tvg-id="manga" tvg-chno="236" tvg-name="MAN-GA" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/236-manga.png" group-title="Bambini e ragazzi",MAN-GA [OpenIPTVItaly]
+https://streamcdnr9-c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/manifest.mpd
 #EXTINF:-1 tvg-id="manga" tvg-chno="236" tvg-name="MAN-GA" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/236-manga.png" group-title="Bambini e ragazzi",MAN-GA [TOPTiVU]
 https://c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/master.m3u8
 #EXTINF:-1 tvg-id="manga" tvg-chno="236" tvg-name="MAN-GA" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/236-manga.png" group-title="Bambini e ragazzi",MAN-GA [LiveTVCollector]
@@ -677,12 +673,12 @@ https://amg14891-amg14891c3-amgplt0033.playout.now3.amagi.tv/ts-eu-w1-n2/playlis
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v2/stitch/hls/channel/6971fc07c945e6e4e5bc46bf/master.m3u8?advertisingId=&appName=web&appVersion=7.9.0-a9cca6b89aea4dc0998b92a51989d2adb9a9025d&app_name=web&clientDeviceType=0&clientID=80ee5d2f-ac4c-4d1a-9692-452299312274&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=80ee5d2f-ac4c-4d1a-9692-452299312274&deviceLat=41.0400&deviceLon=17.0800&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=16.2.0&marketingRegion=IT&serverSideAds=true&sessionID=d80dcb31-5615-11f1-9340-1a379648d709&sid=d80dcb31-5615-11f1-9340-1a379648d709&userId=&jwt=eyJhbGciOiJIUzI1NiIsImtpZCI6IjkzMmUxNzhhLTE3YjktNDI4Yi05YTc5LTY1YjU3YTFmYzgzYiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSUQiOiJkODBkY2IzMS01NjE1LTExZjEtOTM0MC0xYTM3OTY0OGQ3MDkiLCJjbGllbnRJUCI6IjM3LjEwMS4xMDAuMTQzIiwiY2l0eSI6Ik1vbGEgRGkgQmFyaSIsInBvc3RhbENvZGUiOiI3MDA0MiIsImNvdW50cnkiOiJJVCIsImRtYSI6MCwiYWN0aXZlUmVnaW9uIjoiSVQiLCJkZXZpY2VMYXQiOjQxLjA0MDAwMDkxNTUyNzM0NCwiZGV2aWNlTG9uIjoxNy4wNzk5OTk5MjM3MDYwNTUsInByZWZlcnJlZExhbmd1YWdlIjoiZW4iLCJkZXZpY2VUeXBlIjoid2ViIiwiZGV2aWNlVmVyc2lvbiI6IjE2LjIuMCIsImRldmljZU1ha2UiOiJDaHJvbWUiLCJkZXZpY2VNb2RlbCI6IndlYiIsImFwcE5hbWUiOiJ3ZWIiLCJhcHBWZXJzaW9uIjoiNy45LjAtYTljY2E2Yjg5YWVhNGRjMDk5OGI5MmE1MTk4OWQyYWRiOWE5MDI1ZCIsImNsaWVudElEIjoiODBlZTVkMmYtYWM0Yy00ZDFhLTk2OTItNDUyMjk5MzEyMjc0IiwiY21BdWRpZW5jZUlEIjoiIiwiaXNDbGllbnRETlQiOmZhbHNlLCJ1c2VySUQiOiIiLCJsb2dMZXZlbCI6IkRFRkFVTFQiLCJ0aW1lWm9uZSI6IkV1cm9wZS9Sb21lIiwic2VydmVyU2lkZUFkcyI6dHJ1ZSwiZTJlQmVhY29ucyI6ZmFsc2UsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckRhc2hOZyI6eyJmbGF0dGVuQmFzZVVybCI6dHJ1ZX0sInN0aXRjaGVySGxzTmciOnsiZGVtdXhlZEF1ZGlvIjoiaml0In19LCJmbXNQYXJhbXMiOnsiZndWY0lEMiI6IjgwZWU1ZDJmLWFjNGMtNGQxYS05NjkyLTQ1MjI5OTMxMjI3NCIsImZ3VmNJRDJDb3BwYSI6IjgwZWU1ZDJmLWFjNGMtNGQxYS05NjkyLTQ1MjI5OTMxMjI3NCIsImN1c3RvbVBhcmFtcyI6eyJmbXNfbGl2ZXJhbXBfaWRsIjoiIiwiZm1zX2VtYWlsaGFzaCI6IiIsImZtc19zdWJzY3JpYmVyaWQiOiIiLCJmbXNfaWZhIjoiIiwiZm1zX2lkZnYiOiIiLCJmbXNfdXNlcmlkIjoiODBlZTVkMmYtYWM0Yy00ZDFhLTk2OTItNDUyMjk5MzEyMjc0IiwiZm1zX3ZjaWQydHlwZSI6InVzZXJpZCIsImZtc19yYW1wX2lkIjoiIiwiZm1zX2hoX3JhbXBfaWQiOiIiLCJmbXNfYmlkaWR0eXBlIjoiIiwiX2Z3XzNQX1VJRCI6IiIsImZtc19ydWxlaWQiOiIxMDAyMSwxMDAwMCwxMDAxMywxMDAxNCwxMDAxNSwxMDAyMywxMDAwOSwxMDAxNiwxMDAyMCJ9fSwic2Vzc2lvblN0YXJ0VGltZSI6MTc3OTQ3ODcyNDQyOCwiaXNzIjoiYm9vdC5wbHV0by50diIsInN1YiI6InByaTp2MTpwbHV0bzpkZXZpY2VzOklUOk9EQmxaVFZrTW1ZdFlXTTBZeTAwWkRGaExUazJPVEl0TkRVeU1qazVNekV5TWpjMCIsImF1ZCI6IioucGx1dG8udHYiLCJleHAiOjE3Nzk1NjUxMjQsImlhdCI6MTc3OTQ3ODcyNCwianRpIjoiNDJiODk3YzUtZjdmNC00NDExLTk0MDItMWMyMThkN2VjYjU0In0.qkoVMaUPhkB1gCepZXFfxiyS9kja02kcXxrzC7JXbJg&masterJWTPassthrough=true
 #EXTINF:-1 tvg-id="Gambero.Rosso.HD.it" tvg-chno="257" tvg-name="Gambero Rosso" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/257-gamberorosso.png" group-title="Altre tv",Gambero Rosso [LiveTVCollector]
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-68890c53e88463ed45df9410.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
-#EXTINF:-1 tvg-id="RADIOFRECCIA.HD.it" tvg-chno="258" tvg-name="Radio Freccia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/258-radiofreccia.png" group-title="Music",Radio Freccia [TOPTiVU]
-https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/manifest.mpd
 #EXTINF:-1 tvg-id="RADIOFRECCIA.HD.it" tvg-chno="258" tvg-name="Radio Freccia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/258-radiofreccia.png" group-title="Music",Radio Freccia [OpenIPTVItaly]
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
 #EXTINF:-1 tvg-id="RADIOFRECCIA.HD.it" tvg-chno="258" tvg-name="Radio Freccia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/258-radiofreccia.png" group-title="Music",Radio Freccia [LiveTVCollector]
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist.m3u8
+#EXTINF:-1 tvg-id="RADIOFRECCIA.HD.it" tvg-chno="258" tvg-name="Radio Freccia" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/258-radiofreccia.png" group-title="Music",Radio Freccia [TOPTiVU]
+https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-chno="262" tvg-name="Byoblu" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/byoblu.png" group-title="Altro",Byoblu [FreeTV]
 https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/playlist.m3u8
 #EXTINF:-1 tvg-id="RDSSocialTV.it" tvg-chno="265" tvg-name="RDS Social TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/265-rdssocialtv.png" group-title="Musica",RDS Social TV [TOPTiVU]
@@ -973,10 +969,10 @@ https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-695d496dd8ee
 https://4cba2078e4fc412692ab42bc0a6585c5.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_BeautyChannel/playlist.m3u8
 #EXTINF:-1 tvg-id="bellla e monella tv" tvg-chno="" tvg-name="Bellla e Monella TV" tvg-logo="https://i.imgur.com/yZONx5f.png" group-title="Musica",Bellla e Monella TV [TOPTiVU]
 https://58d921499d3d3.streamlock.net/RadioBelllaemonellaTV/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Bergamo TV" tvg-logo="https://i.imgur.com/Np3RaKv.png" group-title="Regionali",Bergamo TV [FreeTV]
-https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Bergamo TV" tvg-logo="https://i.imgur.com/Np3RaKv.png" group-title="Regionali",Bergamo TV [TOPTiVU]
 https://streamcdng10-db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/chunklist_DVR.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Bergamo TV" tvg-logo="https://i.imgur.com/Np3RaKv.png" group-title="Regionali",Bergamo TV [FreeTV]
+https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Bergamo TV" tvg-logo="https://i.imgur.com/Np3RaKv.png" group-title="Regionali",Bergamo TV [LiveTVCollector]
 https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Bernard L'Orso" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/fedcdd27-a453-410e-b04c-e531e481fdbe.jpeg" group-title="RAKUTEN - Bambini",Bernard L'Orso [LiveTVCollector]
@@ -1003,8 +999,6 @@ https://86ebec83.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-61d73ab0a7b7c7f703418516.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Bondi Rescue" tvg-logo="https://provider-static.plex.tv/epg/cms/production/91ffbeaa-df66-4074-83d6-94cacb9622fa/Plex_Totem_BondiRescue_Logo_White_-_Rowan_Williams.png" group-title="Reality",Bondi Rescue [LiveTVCollector]
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-69ae4f38e657bab5f7a9b7ec.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
-#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang [LiveTVCollector]
-http://sultanios.alwaysdata.net/vavo.php?ID=2705627802
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Bowling TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/573ed04e-775e-41c9-a367-81b9597eff00/Channel_Logo_Color_Evann_D___AdamoRDX_WHT_LETTERS.png" group-title="Sports",Bowling TV [LiveTVCollector]
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-6970fdabbde579fb71262401.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Brat TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/9d75cf3b-be95-4785-ab5a-3cfdd4994ab7/BratTV_PlexTV_Logo_DarkBG.png" group-title="Kids & Family",Brat TV [LiveTVCollector]
@@ -2507,6 +2501,8 @@ http://109.169.87.42:8080/stream/30/index.m3u8
 http://109.169.87.42:8080/stream/2/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sky Sport (non sempre attivo)" tvg-logo="https://videoplatform.sky.it/logo/1600160831204_png.png" group-title="Sport",Sky Sport (non sempre attivo) [TOPTiVU]
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11222/skysportweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
+#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sky Sport F1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/960px-Sky_Sport_F1_-_Logo_2020.svg.png" group-title="Sports",Sky Sport F1 [LiveTVCollector]
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F22890389722acc4573933d
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="SL 48 Tv" tvg-logo="https://i.imgur.com/b58oouu.jpg" group-title="Italy",SL 48 Tv [FreeTV]
 http://media.velcom.it:1935/sl48/sl48/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="SLOPES" tvg-logo="https://provider-static.plex.tv/epg/cms/production/a8716411-7f01-4f8b-bde3-e8390a6d14ce/SLOPES_logo_dark.png" group-title="Sports",SLOPES [LiveTVCollector]
@@ -2531,10 +2527,10 @@ https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3
 https://italiansport-solocalcio-samsung.amagi.tv/playlist1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sonic TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/14362d39-32e6-41c8-894d-2401013362ff/Adventures_of_Sonic_the_Hedgehog_channel_logo_dark_-_Dana_Foster.png" group-title="Kids & Family",Sonic TV [LiveTVCollector]
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-62ba4aaff663580a7238f327.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
-#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sony One Film divertenti" tvg-logo="https://provider-static.plex.tv/epg/cms/production/3c52cf87-78fc-4e54-9033-85658066b286/IT_FAST_Plex_ComedyHits_logo_dark.png" group-title="Film",Sony One Film divertenti [TOPTiVU]
-https://d2lsjs0kluheol.cloudfront.net/playlist_1.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sony One Film divertenti" tvg-logo="https://provider-static.plex.tv/epg/cms/production/3c52cf87-78fc-4e54-9033-85658066b286/IT_FAST_Plex_ComedyHits_logo_dark.png" group-title="Film",Sony One Film divertenti [IPTVItalia]
 https://076507c6230e400ebcce99e452f12b7f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-824-IT-SONYONEFILMDIVERTENTI-LG_IT/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sony One Film divertenti" tvg-logo="https://provider-static.plex.tv/epg/cms/production/3c52cf87-78fc-4e54-9033-85658066b286/IT_FAST_Plex_ComedyHits_logo_dark.png" group-title="Film",Sony One Film divertenti [TOPTiVU]
+https://d2lsjs0kluheol.cloudfront.net/playlist_1.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sony One Film divertenti" tvg-logo="https://provider-static.plex.tv/epg/cms/production/3c52cf87-78fc-4e54-9033-85658066b286/IT_FAST_Plex_ComedyHits_logo_dark.png" group-title="Film",Sony One Film divertenti [LiveTVCollector]
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-69222e0c50fe592fd6d5b7e4.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sony One Film d’azione" tvg-logo="https://provider-static.plex.tv/epg/cms/production/fbeb9d90-1aa5-4bec-85fa-96da3d46e68b/IT_FAST_Plex_ActionHits_logo_dark.png" group-title="Film",Sony One Film d’azione [TOPTiVU]
@@ -2561,9 +2557,9 @@ https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-692230395028
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-69222f875cbe620c1f9b6bc3.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Sophia Tv" tvg-logo="https://i.imgur.com/RPXusvS.png" group-title="Undefined",Sophia Tv [FreeTV]
 https://bild-und-ton.stream/sophiatv-it/smil:sophia-tv-it.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PlutoSouthPark.it" tvg-chno="" tvg-name="South Park" tvg-logo="https://images.pluto.tv/channels/628751bb7154a40007168843/colorLogoPNG_1748431640253.png" group-title="Serie",South Park [LiveTVCollector]
+#EXTINF:-1 tvg-id="PlutoSouthPark.it" tvg-chno="" tvg-name="South Park" tvg-logo="https://images.pluto.tv/channels/62bc1f502b70e3000706298e/colorLogoPNG.png" group-title="Serie",South Park [TOPTiVU]
 https://jmp2.uk/plu-62bc1f502b70e3000706298e.m3u8
-#EXTINF:-1 tvg-id="PlutoSouthPark.it" tvg-chno="" tvg-name="South Park" tvg-logo="https://images.pluto.tv/channels/628751bb7154a40007168843/colorLogoPNG_1748431640253.png" group-title="Serie",South Park [LiveTVCollector]
+#EXTINF:-1 tvg-id="PlutoSouthPark.it" tvg-chno="" tvg-name="South Park" tvg-logo="https://images.pluto.tv/channels/62bc1f502b70e3000706298e/colorLogoPNG.png" group-title="Serie",South Park [LiveTVCollector]
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v2/stitch/hls/channel/62bc1f502b70e3000706298e/master.m3u8?advertisingId=&appName=web&appVersion=7.9.0-a9cca6b89aea4dc0998b92a51989d2adb9a9025d&app_name=web&clientDeviceType=0&clientID=80ee5d2f-ac4c-4d1a-9692-452299312274&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=80ee5d2f-ac4c-4d1a-9692-452299312274&deviceLat=41.0400&deviceLon=17.0800&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=16.2.0&marketingRegion=IT&serverSideAds=true&sessionID=d80dcb31-5615-11f1-9340-1a379648d709&sid=d80dcb31-5615-11f1-9340-1a379648d709&userId=&jwt=eyJhbGciOiJIUzI1NiIsImtpZCI6IjkzMmUxNzhhLTE3YjktNDI4Yi05YTc5LTY1YjU3YTFmYzgzYiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSUQiOiJkODBkY2IzMS01NjE1LTExZjEtOTM0MC0xYTM3OTY0OGQ3MDkiLCJjbGllbnRJUCI6IjM3LjEwMS4xMDAuMTQzIiwiY2l0eSI6Ik1vbGEgRGkgQmFyaSIsInBvc3RhbENvZGUiOiI3MDA0MiIsImNvdW50cnkiOiJJVCIsImRtYSI6MCwiYWN0aXZlUmVnaW9uIjoiSVQiLCJkZXZpY2VMYXQiOjQxLjA0MDAwMDkxNTUyNzM0NCwiZGV2aWNlTG9uIjoxNy4wNzk5OTk5MjM3MDYwNTUsInByZWZlcnJlZExhbmd1YWdlIjoiZW4iLCJkZXZpY2VUeXBlIjoid2ViIiwiZGV2aWNlVmVyc2lvbiI6IjE2LjIuMCIsImRldmljZU1ha2UiOiJDaHJvbWUiLCJkZXZpY2VNb2RlbCI6IndlYiIsImFwcE5hbWUiOiJ3ZWIiLCJhcHBWZXJzaW9uIjoiNy45LjAtYTljY2E2Yjg5YWVhNGRjMDk5OGI5MmE1MTk4OWQyYWRiOWE5MDI1ZCIsImNsaWVudElEIjoiODBlZTVkMmYtYWM0Yy00ZDFhLTk2OTItNDUyMjk5MzEyMjc0IiwiY21BdWRpZW5jZUlEIjoiIiwiaXNDbGllbnRETlQiOmZhbHNlLCJ1c2VySUQiOiIiLCJsb2dMZXZlbCI6IkRFRkFVTFQiLCJ0aW1lWm9uZSI6IkV1cm9wZS9Sb21lIiwic2VydmVyU2lkZUFkcyI6dHJ1ZSwiZTJlQmVhY29ucyI6ZmFsc2UsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckRhc2hOZyI6eyJmbGF0dGVuQmFzZVVybCI6dHJ1ZX0sInN0aXRjaGVySGxzTmciOnsiZGVtdXhlZEF1ZGlvIjoiaml0In19LCJmbXNQYXJhbXMiOnsiZndWY0lEMiI6IjgwZWU1ZDJmLWFjNGMtNGQxYS05NjkyLTQ1MjI5OTMxMjI3NCIsImZ3VmNJRDJDb3BwYSI6IjgwZWU1ZDJmLWFjNGMtNGQxYS05NjkyLTQ1MjI5OTMxMjI3NCIsImN1c3RvbVBhcmFtcyI6eyJmbXNfbGl2ZXJhbXBfaWRsIjoiIiwiZm1zX2VtYWlsaGFzaCI6IiIsImZtc19zdWJzY3JpYmVyaWQiOiIiLCJmbXNfaWZhIjoiIiwiZm1zX2lkZnYiOiIiLCJmbXNfdXNlcmlkIjoiODBlZTVkMmYtYWM0Yy00ZDFhLTk2OTItNDUyMjk5MzEyMjc0IiwiZm1zX3ZjaWQydHlwZSI6InVzZXJpZCIsImZtc19yYW1wX2lkIjoiIiwiZm1zX2hoX3JhbXBfaWQiOiIiLCJmbXNfYmlkaWR0eXBlIjoiIiwiX2Z3XzNQX1VJRCI6IiIsImZtc19ydWxlaWQiOiIxMDAyMSwxMDAwMCwxMDAxMywxMDAxNCwxMDAxNSwxMDAyMywxMDAwOSwxMDAxNiwxMDAyMCJ9fSwic2Vzc2lvblN0YXJ0VGltZSI6MTc3OTQ3ODcyNDQyOCwiaXNzIjoiYm9vdC5wbHV0by50diIsInN1YiI6InByaTp2MTpwbHV0bzpkZXZpY2VzOklUOk9EQmxaVFZrTW1ZdFlXTTBZeTAwWkRGaExUazJPVEl0TkRVeU1qazVNekV5TWpjMCIsImF1ZCI6IioucGx1dG8udHYiLCJleHAiOjE3Nzk1NjUxMjQsImlhdCI6MTc3OTQ3ODcyNCwianRpIjoiNDJiODk3YzUtZjdmNC00NDExLTk0MDItMWMyMThkN2VjYjU0In0.qkoVMaUPhkB1gCepZXFfxiyS9kja02kcXxrzC7JXbJg&masterJWTPassthrough=true
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Space Live" tvg-logo="https://images.pluto.tv/channels/69b1489b5828e7c242d83064/colorLogoPNG_1775118441487.png" group-title="PLUTO",Space Live [LiveTVCollector]
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v2/stitch/hls/channel/69b1489b5828e7c242d83064/master.m3u8?advertisingId=&appName=web&appVersion=7.9.0-a9cca6b89aea4dc0998b92a51989d2adb9a9025d&app_name=web&clientDeviceType=0&clientID=80ee5d2f-ac4c-4d1a-9692-452299312274&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=80ee5d2f-ac4c-4d1a-9692-452299312274&deviceLat=41.0400&deviceLon=17.0800&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=16.2.0&marketingRegion=IT&serverSideAds=true&sessionID=d80dcb31-5615-11f1-9340-1a379648d709&sid=d80dcb31-5615-11f1-9340-1a379648d709&userId=&jwt=eyJhbGciOiJIUzI1NiIsImtpZCI6IjkzMmUxNzhhLTE3YjktNDI4Yi05YTc5LTY1YjU3YTFmYzgzYiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSUQiOiJkODBkY2IzMS01NjE1LTExZjEtOTM0MC0xYTM3OTY0OGQ3MDkiLCJjbGllbnRJUCI6IjM3LjEwMS4xMDAuMTQzIiwiY2l0eSI6Ik1vbGEgRGkgQmFyaSIsInBvc3RhbENvZGUiOiI3MDA0MiIsImNvdW50cnkiOiJJVCIsImRtYSI6MCwiYWN0aXZlUmVnaW9uIjoiSVQiLCJkZXZpY2VMYXQiOjQxLjA0MDAwMDkxNTUyNzM0NCwiZGV2aWNlTG9uIjoxNy4wNzk5OTk5MjM3MDYwNTUsInByZWZlcnJlZExhbmd1YWdlIjoiZW4iLCJkZXZpY2VUeXBlIjoid2ViIiwiZGV2aWNlVmVyc2lvbiI6IjE2LjIuMCIsImRldmljZU1ha2UiOiJDaHJvbWUiLCJkZXZpY2VNb2RlbCI6IndlYiIsImFwcE5hbWUiOiJ3ZWIiLCJhcHBWZXJzaW9uIjoiNy45LjAtYTljY2E2Yjg5YWVhNGRjMDk5OGI5MmE1MTk4OWQyYWRiOWE5MDI1ZCIsImNsaWVudElEIjoiODBlZTVkMmYtYWM0Yy00ZDFhLTk2OTItNDUyMjk5MzEyMjc0IiwiY21BdWRpZW5jZUlEIjoiIiwiaXNDbGllbnRETlQiOmZhbHNlLCJ1c2VySUQiOiIiLCJsb2dMZXZlbCI6IkRFRkFVTFQiLCJ0aW1lWm9uZSI6IkV1cm9wZS9Sb21lIiwic2VydmVyU2lkZUFkcyI6dHJ1ZSwiZTJlQmVhY29ucyI6ZmFsc2UsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckRhc2hOZyI6eyJmbGF0dGVuQmFzZVVybCI6dHJ1ZX0sInN0aXRjaGVySGxzTmciOnsiZGVtdXhlZEF1ZGlvIjoiaml0In19LCJmbXNQYXJhbXMiOnsiZndWY0lEMiI6IjgwZWU1ZDJmLWFjNGMtNGQxYS05NjkyLTQ1MjI5OTMxMjI3NCIsImZ3VmNJRDJDb3BwYSI6IjgwZWU1ZDJmLWFjNGMtNGQxYS05NjkyLTQ1MjI5OTMxMjI3NCIsImN1c3RvbVBhcmFtcyI6eyJmbXNfbGl2ZXJhbXBfaWRsIjoiIiwiZm1zX2VtYWlsaGFzaCI6IiIsImZtc19zdWJzY3JpYmVyaWQiOiIiLCJmbXNfaWZhIjoiIiwiZm1zX2lkZnYiOiIiLCJmbXNfdXNlcmlkIjoiODBlZTVkMmYtYWM0Yy00ZDFhLTk2OTItNDUyMjk5MzEyMjc0IiwiZm1zX3ZjaWQydHlwZSI6InVzZXJpZCIsImZtc19yYW1wX2lkIjoiIiwiZm1zX2hoX3JhbXBfaWQiOiIiLCJmbXNfYmlkaWR0eXBlIjoiIiwiX2Z3XzNQX1VJRCI6IiIsImZtc19ydWxlaWQiOiIxMDAyMSwxMDAwMCwxMDAxMywxMDAxNCwxMDAxNSwxMDAyMywxMDAwOSwxMDAxNiwxMDAyMCJ9fSwic2Vzc2lvblN0YXJ0VGltZSI6MTc3OTQ3ODcyNDQyOCwiaXNzIjoiYm9vdC5wbHV0by50diIsInN1YiI6InByaTp2MTpwbHV0bzpkZXZpY2VzOklUOk9EQmxaVFZrTW1ZdFlXTTBZeTAwWkRGaExUazJPVEl0TkRVeU1qazVNekV5TWpjMCIsImF1ZCI6IioucGx1dG8udHYiLCJleHAiOjE3Nzk1NjUxMjQsImlhdCI6MTc3OTQ3ODcyNCwianRpIjoiNDJiODk3YzUtZjdmNC00NDExLTk0MDItMWMyMThkN2VjYjU0In0.qkoVMaUPhkB1gCepZXFfxiyS9kja02kcXxrzC7JXbJg&masterJWTPassthrough=true
@@ -2607,9 +2603,7 @@ https://jmp2.uk/plu-625e6cc905e09f00073addee.m3u8
 https://4ede4e2e52be4ac280c54ec711b428fd.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_SquadraSpecialeLipsia/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="ST Europe Channel" tvg-logo="https://i.imgur.com/QpPgSfr.png" group-title="Italy",ST Europe Channel [FreeTV]
 https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Star Trek: Voyager" tvg-logo="https://images.pluto.tv/channels/65787f2eb228b7000843fa5c/colorLogoPNG.png" group-title="Movies;Series",Star Trek: Voyager [LiveTVCollector]
-https://jmp2.uk/plu-65cb73d33ba51e00084cabad.m3u8
-#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Star Trek: Voyager" tvg-logo="https://images.pluto.tv/channels/65787f2eb228b7000843fa5c/colorLogoPNG.png" group-title="Movies;Series",Star Trek: Voyager [LiveTVCollector]
+#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Star Trek: Voyager" tvg-logo="https://images.pluto.tv/channels/65cb73d33ba51e00084cabad/colorLogoPNG.png" group-title="PLUTO",Star Trek: Voyager [LiveTVCollector]
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v2/stitch/hls/channel/65cb73d33ba51e00084cabad/master.m3u8?advertisingId=&appName=web&appVersion=7.9.0-a9cca6b89aea4dc0998b92a51989d2adb9a9025d&app_name=web&clientDeviceType=0&clientID=80ee5d2f-ac4c-4d1a-9692-452299312274&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=80ee5d2f-ac4c-4d1a-9692-452299312274&deviceLat=41.0400&deviceLon=17.0800&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=16.2.0&marketingRegion=IT&serverSideAds=true&sessionID=d80dcb31-5615-11f1-9340-1a379648d709&sid=d80dcb31-5615-11f1-9340-1a379648d709&userId=&jwt=eyJhbGciOiJIUzI1NiIsImtpZCI6IjkzMmUxNzhhLTE3YjktNDI4Yi05YTc5LTY1YjU3YTFmYzgzYiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSUQiOiJkODBkY2IzMS01NjE1LTExZjEtOTM0MC0xYTM3OTY0OGQ3MDkiLCJjbGllbnRJUCI6IjM3LjEwMS4xMDAuMTQzIiwiY2l0eSI6Ik1vbGEgRGkgQmFyaSIsInBvc3RhbENvZGUiOiI3MDA0MiIsImNvdW50cnkiOiJJVCIsImRtYSI6MCwiYWN0aXZlUmVnaW9uIjoiSVQiLCJkZXZpY2VMYXQiOjQxLjA0MDAwMDkxNTUyNzM0NCwiZGV2aWNlTG9uIjoxNy4wNzk5OTk5MjM3MDYwNTUsInByZWZlcnJlZExhbmd1YWdlIjoiZW4iLCJkZXZpY2VUeXBlIjoid2ViIiwiZGV2aWNlVmVyc2lvbiI6IjE2LjIuMCIsImRldmljZU1ha2UiOiJDaHJvbWUiLCJkZXZpY2VNb2RlbCI6IndlYiIsImFwcE5hbWUiOiJ3ZWIiLCJhcHBWZXJzaW9uIjoiNy45LjAtYTljY2E2Yjg5YWVhNGRjMDk5OGI5MmE1MTk4OWQyYWRiOWE5MDI1ZCIsImNsaWVudElEIjoiODBlZTVkMmYtYWM0Yy00ZDFhLTk2OTItNDUyMjk5MzEyMjc0IiwiY21BdWRpZW5jZUlEIjoiIiwiaXNDbGllbnRETlQiOmZhbHNlLCJ1c2VySUQiOiIiLCJsb2dMZXZlbCI6IkRFRkFVTFQiLCJ0aW1lWm9uZSI6IkV1cm9wZS9Sb21lIiwic2VydmVyU2lkZUFkcyI6dHJ1ZSwiZTJlQmVhY29ucyI6ZmFsc2UsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckRhc2hOZyI6eyJmbGF0dGVuQmFzZVVybCI6dHJ1ZX0sInN0aXRjaGVySGxzTmciOnsiZGVtdXhlZEF1ZGlvIjoiaml0In19LCJmbXNQYXJhbXMiOnsiZndWY0lEMiI6IjgwZWU1ZDJmLWFjNGMtNGQxYS05NjkyLTQ1MjI5OTMxMjI3NCIsImZ3VmNJRDJDb3BwYSI6IjgwZWU1ZDJmLWFjNGMtNGQxYS05NjkyLTQ1MjI5OTMxMjI3NCIsImN1c3RvbVBhcmFtcyI6eyJmbXNfbGl2ZXJhbXBfaWRsIjoiIiwiZm1zX2VtYWlsaGFzaCI6IiIsImZtc19zdWJzY3JpYmVyaWQiOiIiLCJmbXNfaWZhIjoiIiwiZm1zX2lkZnYiOiIiLCJmbXNfdXNlcmlkIjoiODBlZTVkMmYtYWM0Yy00ZDFhLTk2OTItNDUyMjk5MzEyMjc0IiwiZm1zX3ZjaWQydHlwZSI6InVzZXJpZCIsImZtc19yYW1wX2lkIjoiIiwiZm1zX2hoX3JhbXBfaWQiOiIiLCJmbXNfYmlkaWR0eXBlIjoiIiwiX2Z3XzNQX1VJRCI6IiIsImZtc19ydWxlaWQiOiIxMDAyMSwxMDAwMCwxMDAxMywxMDAxNCwxMDAxNSwxMDAyMywxMDAwOSwxMDAxNiwxMDAyMCJ9fSwic2Vzc2lvblN0YXJ0VGltZSI6MTc3OTQ3ODcyNDQyOCwiaXNzIjoiYm9vdC5wbHV0by50diIsInN1YiI6InByaTp2MTpwbHV0bzpkZXZpY2VzOklUOk9EQmxaVFZrTW1ZdFlXTTBZeTAwWkRGaExUazJPVEl0TkRVeU1qazVNekV5TWpjMCIsImF1ZCI6IioucGx1dG8udHYiLCJleHAiOjE3Nzk1NjUxMjQsImlhdCI6MTc3OTQ3ODcyNCwianRpIjoiNDJiODk3YzUtZjdmNC00NDExLTk0MDItMWMyMThkN2VjYjU0In0.qkoVMaUPhkB1gCepZXFfxiyS9kja02kcXxrzC7JXbJg&masterJWTPassthrough=true
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="STARS Film & Secrets" tvg-logo="https://streamer.nexotv.it/i/XnsJkpjZtF3y/v1/t_f_webp/XnsJkpjZtF3y.png" group-title="Documentari",STARS Film & Secrets [TOPTiVU]
 https://nexoapp.d-dr.com/api/live/stars-film-secrets/live.m3u8
@@ -2709,9 +2703,7 @@ https://m.iostream.it/hls/teatrotv/teatrotv.m3u8
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-62ab5aabbb869dd0df6a3487.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=ReeL7vsBisvCW9xebomo
 #EXTINF:-1 tvg-id="PlutoSuperPop.it" tvg-chno="" tvg-name="Teen Club - Pluto" tvg-logo="https://images.pluto.tv/channels/6093f7b5bb49b90007cecaad/colorLogoPNG_1784270785442.png" group-title="Bambini e ragazzi",Teen Club - Pluto [TOPTiVU]
 https://jmp2.uk/plu-6093f7b5bb49b90007cecaad.m3u8
-#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Teen Mom" tvg-logo="https://images.pluto.tv/channels/62e7fc8c0d061100083946a9/colorLogoPNG.png" group-title="Entertainment",Teen Mom [LiveTVCollector]
-https://jmp2.uk/plu-62e7fc8c0d061100083946a9.m3u8
-#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Teen Mom" tvg-logo="https://images.pluto.tv/channels/62e7fc8c0d061100083946a9/colorLogoPNG.png" group-title="Entertainment",Teen Mom [LiveTVCollector]
+#EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Teen Mom" tvg-logo="https://images.pluto.tv/channels/62e7fc8c0d061100083946a9/colorLogoPNG.png" group-title="PLUTO",Teen Mom [LiveTVCollector]
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v2/stitch/hls/channel/62e7fc8c0d061100083946a9/master.m3u8?advertisingId=&appName=web&appVersion=7.9.0-a9cca6b89aea4dc0998b92a51989d2adb9a9025d&app_name=web&clientDeviceType=0&clientID=80ee5d2f-ac4c-4d1a-9692-452299312274&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=80ee5d2f-ac4c-4d1a-9692-452299312274&deviceLat=41.0400&deviceLon=17.0800&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=16.2.0&marketingRegion=IT&serverSideAds=true&sessionID=d80dcb31-5615-11f1-9340-1a379648d709&sid=d80dcb31-5615-11f1-9340-1a379648d709&userId=&jwt=eyJhbGciOiJIUzI1NiIsImtpZCI6IjkzMmUxNzhhLTE3YjktNDI4Yi05YTc5LTY1YjU3YTFmYzgzYiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSUQiOiJkODBkY2IzMS01NjE1LTExZjEtOTM0MC0xYTM3OTY0OGQ3MDkiLCJjbGllbnRJUCI6IjM3LjEwMS4xMDAuMTQzIiwiY2l0eSI6Ik1vbGEgRGkgQmFyaSIsInBvc3RhbENvZGUiOiI3MDA0MiIsImNvdW50cnkiOiJJVCIsImRtYSI6MCwiYWN0aXZlUmVnaW9uIjoiSVQiLCJkZXZpY2VMYXQiOjQxLjA0MDAwMDkxNTUyNzM0NCwiZGV2aWNlTG9uIjoxNy4wNzk5OTk5MjM3MDYwNTUsInByZWZlcnJlZExhbmd1YWdlIjoiZW4iLCJkZXZpY2VUeXBlIjoid2ViIiwiZGV2aWNlVmVyc2lvbiI6IjE2LjIuMCIsImRldmljZU1ha2UiOiJDaHJvbWUiLCJkZXZpY2VNb2RlbCI6IndlYiIsImFwcE5hbWUiOiJ3ZWIiLCJhcHBWZXJzaW9uIjoiNy45LjAtYTljY2E2Yjg5YWVhNGRjMDk5OGI5MmE1MTk4OWQyYWRiOWE5MDI1ZCIsImNsaWVudElEIjoiODBlZTVkMmYtYWM0Yy00ZDFhLTk2OTItNDUyMjk5MzEyMjc0IiwiY21BdWRpZW5jZUlEIjoiIiwiaXNDbGllbnRETlQiOmZhbHNlLCJ1c2VySUQiOiIiLCJsb2dMZXZlbCI6IkRFRkFVTFQiLCJ0aW1lWm9uZSI6IkV1cm9wZS9Sb21lIiwic2VydmVyU2lkZUFkcyI6dHJ1ZSwiZTJlQmVhY29ucyI6ZmFsc2UsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckRhc2hOZyI6eyJmbGF0dGVuQmFzZVVybCI6dHJ1ZX0sInN0aXRjaGVySGxzTmciOnsiZGVtdXhlZEF1ZGlvIjoiaml0In19LCJmbXNQYXJhbXMiOnsiZndWY0lEMiI6IjgwZWU1ZDJmLWFjNGMtNGQxYS05NjkyLTQ1MjI5OTMxMjI3NCIsImZ3VmNJRDJDb3BwYSI6IjgwZWU1ZDJmLWFjNGMtNGQxYS05NjkyLTQ1MjI5OTMxMjI3NCIsImN1c3RvbVBhcmFtcyI6eyJmbXNfbGl2ZXJhbXBfaWRsIjoiIiwiZm1zX2VtYWlsaGFzaCI6IiIsImZtc19zdWJzY3JpYmVyaWQiOiIiLCJmbXNfaWZhIjoiIiwiZm1zX2lkZnYiOiIiLCJmbXNfdXNlcmlkIjoiODBlZTVkMmYtYWM0Yy00ZDFhLTk2OTItNDUyMjk5MzEyMjc0IiwiZm1zX3ZjaWQydHlwZSI6InVzZXJpZCIsImZtc19yYW1wX2lkIjoiIiwiZm1zX2hoX3JhbXBfaWQiOiIiLCJmbXNfYmlkaWR0eXBlIjoiIiwiX2Z3XzNQX1VJRCI6IiIsImZtc19ydWxlaWQiOiIxMDAyMSwxMDAwMCwxMDAxMywxMDAxNCwxMDAxNSwxMDAyMywxMDAwOSwxMDAxNiwxMDAyMCJ9fSwic2Vzc2lvblN0YXJ0VGltZSI6MTc3OTQ3ODcyNDQyOCwiaXNzIjoiYm9vdC5wbHV0by50diIsInN1YiI6InByaTp2MTpwbHV0bzpkZXZpY2VzOklUOk9EQmxaVFZrTW1ZdFlXTTBZeTAwWkRGaExUazJPVEl0TkRVeU1qazVNekV5TWpjMCIsImF1ZCI6IioucGx1dG8udHYiLCJleHAiOjE3Nzk1NjUxMjQsImlhdCI6MTc3OTQ3ODcyNCwianRpIjoiNDJiODk3YzUtZjdmNC00NDExLTk0MDItMWMyMThkN2VjYjU0In0.qkoVMaUPhkB1gCepZXFfxiyS9kja02kcXxrzC7JXbJg&masterJWTPassthrough=true
 #EXTINF:-1 tvg-id="PlutoTeenageMutantNinjaTurtles.it" tvg-chno="" tvg-name="Teenage Mutant Ninja Turtles" tvg-logo="https://images.pluto.tv/channels/62619405c733e8000732d1fe/colorLogoPNG.png" group-title="Bambini e ragazzi",Teenage Mutant Ninja Turtles [LiveTVCollector]
 https://jmp2.uk/plu-62619405c733e8000732d1fe.m3u8
@@ -2729,10 +2721,10 @@ https://5ce9406b73c33.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8
 https://5e73cf528f404.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="tele bari" tvg-chno="" tvg-name="Tele Bari" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/17-telebari.png" group-title="Regionali",Tele Bari [TOPTiVU]
 https://w1.mediastreaming.it/telebari/livestream/chunklist_w356304146.m3u8
-#EXTINF:-1 tvg-id="tele bari" tvg-chno="" tvg-name="Tele Bari" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/17-telebari.png" group-title="Regionali",Tele Bari [FreeTV]
-https://w1.mediastreaming.it/telebari/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="tele bari" tvg-chno="" tvg-name="Tele Bari" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/17-telebari.png" group-title="Regionali",Tele Bari [OpenIPTVItaly]
 https://w1.mediastreaming.it/telebari/livestream/manifest.mpd
+#EXTINF:-1 tvg-id="tele bari" tvg-chno="" tvg-name="Tele Bari" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/17-telebari.png" group-title="Regionali",Tele Bari [FreeTV]
+https://w1.mediastreaming.it/telebari/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Tele Belluno" tvg-logo="https://i.imgur.com/YiM2Z7E.png" group-title="Italy",Tele Belluno [FreeTV]
 https://g2qd3exzy7an-hls-live.mariatvcdn.it/livetelebelluno/be0e3154b820953ce1a94a937bb2bb5d.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="Tele Bruzzano" tvg-logo="https://i.imgur.com/7TWbCDt.jpg" group-title="Italy",Tele Bruzzano [FreeTV]
